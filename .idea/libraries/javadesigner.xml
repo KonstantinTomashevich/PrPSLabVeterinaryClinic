@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="javadesigner">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/javadesigner.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
