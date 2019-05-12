@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="SDK" version="4">
+  <OBJECT>
+    <ID name="SDK" mc="Standard.Package" uid="0c796c7c-113c-4506-b33a-38916cf6041c"/>
+    <PID name="MySQL Client-side SDK" mc="Standard.Package" uid="f3015f55-f59e-4e2f-9dc9-c42840e2698d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[SDK]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

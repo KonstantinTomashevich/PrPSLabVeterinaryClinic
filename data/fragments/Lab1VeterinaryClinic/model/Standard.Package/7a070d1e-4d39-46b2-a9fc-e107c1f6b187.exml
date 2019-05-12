@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Работа с архивом Use Case View" version="4">
+  <OBJECT>
+    <ID name="Работа с архивом Use Case View" mc="Standard.Package" uid="7a070d1e-4d39-46b2-a9fc-e107c1f6b187"/>
+    <PID name="Main Use Case View" mc="Standard.Package" uid="67310664-9df8-4ca1-ae57-1547d6f5fb23"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Работа с архивом Use Case View]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Просмотреть ФИО клиентов и клички пациентов в архиве" mc="Standard.UseCase" uid="8f804831-6d5b-4713-aec1-916db0966988"/>
+        <COMPID name="Удалить все данные за период времени" mc="Standard.UseCase" uid="2821f4b2-76a3-4759-8d1a-934aec105afd"/>
+        <COMPID name="Удалить клиента и всех его пациентов" mc="Standard.UseCase" uid="3085528c-9439-4d4c-a7ab-00e2200e4260"/>
+        <COMPID name="Удалить пациента" mc="Standard.UseCase" uid="5ede3180-2245-4471-866e-7c896d9aa46b"/>
+        <COMPID name="Восстановить клиента" mc="Standard.UseCase" uid="1cb230f6-7e5d-4261-b990-c7fcbb8c126b"/>
+        <COMPID name="Восстановить пациента" mc="Standard.UseCase" uid="71258ac6-cbef-4827-ba00-38c9974b5958"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Работа с архивом Use Case" mc="Standard.UseCaseDiagram" uid="b1ab1e75-5772-42df-aec1-341b59981c10"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Lab1VeterinaryClinic" version="4">
+  <OBJECT>
+    <ID name="Lab1VeterinaryClinic" mc="Infrastructure.DiagramSet" uid="944d1ba0-e4fe-48e8-b67b-77afa235c99b"/>
+    <PID name="Lab1VeterinaryClinic" mc="Standard.Project" uid="a3459604-2e0d-469c-b3c9-fa140fc72149"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[Lab1VeterinaryClinic]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

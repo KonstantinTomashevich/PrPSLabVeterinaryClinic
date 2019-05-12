@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Запись оказанных услуг и выписанных рецептов State Diagram" version="4">
+  <OBJECT>
+    <ID name="Запись оказанных услуг и выписанных рецептов State Diagram" mc="Standard.Package" uid="d016bc6c-cdcc-4af0-8a76-94e11457706f"/>
+    <PID name="Process View" mc="Standard.Package" uid="34c822d0-73b8-47ca-ab12-6905a0c6f0b7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Запись оказанных услуг и выписанных рецептов State Diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="State Machine" mc="Standard.StateMachine" uid="09ec499a-d57e-4828-bc64-a1cb696533ad"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

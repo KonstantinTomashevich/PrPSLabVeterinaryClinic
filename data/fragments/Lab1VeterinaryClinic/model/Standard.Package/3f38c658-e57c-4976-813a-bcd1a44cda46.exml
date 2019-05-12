@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CRUD данных о врачах Use Case View" version="4">
+  <OBJECT>
+    <ID name="CRUD данных о врачах Use Case View" mc="Standard.Package" uid="3f38c658-e57c-4976-813a-bcd1a44cda46"/>
+    <PID name="Main Use Case View" mc="Standard.Package" uid="67310664-9df8-4ca1-ae57-1547d6f5fb23"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CRUD данных о врачах Use Case View]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Создание записи о новом враче в базе данных" mc="Standard.UseCase" uid="672419fc-cc17-4aad-8c75-8f31628d2649"/>
+        <COMPID name="Удаление записи о давно уволившемся враче" mc="Standard.UseCase" uid="0971206a-611c-490f-80c6-fc2f1c4ad72b"/>
+        <COMPID name="Получить всю информацию про врача (ФИО, ДР, стаж, специальности, график работы, телефон, email)" mc="Standard.UseCase" uid="10fb3e06-b3d8-4691-835e-c9400593f9e9"/>
+        <COMPID name="Обновить информацию про врача (ФИО, стаж, специальности, телефон, email)" mc="Standard.UseCase" uid="3d37f0a1-2387-4bbc-a8f5-59d448d36f2f"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="CRUD данных о врачах Use Case" mc="Standard.UseCaseDiagram" uid="329343af-82eb-4dda-9546-2a9cdbb6b6c7"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

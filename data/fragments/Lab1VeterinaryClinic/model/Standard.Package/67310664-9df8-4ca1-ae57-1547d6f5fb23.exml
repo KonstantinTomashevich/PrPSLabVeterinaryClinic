@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Main Use Case View" version="4">
+  <OBJECT>
+    <ID name="Main Use Case View" mc="Standard.Package" uid="67310664-9df8-4ca1-ae57-1547d6f5fb23"/>
+    <PID name="Use Case Model" mc="Standard.Package" uid="0049cf1f-8625-447e-bd04-fde51699ac89"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Main Use Case View]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Сотрудник" mc="Standard.Actor" uid="30bee168-14fe-4785-9955-e6516734942e"/>
+        <COMPID name="Войти в систему" mc="Standard.UseCase" uid="c7268bf0-251d-4658-82c4-bc939eb58b62"/>
+        <COMPID name="Сотрудник регистратуры" mc="Standard.Actor" uid="2054f792-2d58-4738-808b-84c2c22eb033"/>
+        <COMPID name="CRUD данных о врачах" mc="Standard.UseCase" uid="82525174-92a5-451e-a545-82dc3974c93f"/>
+        <COMPID name="CRUD данных о пациентах и их владельцах" mc="Standard.UseCase" uid="a9bb1133-d335-48f0-b430-7e91f5ba87b7"/>
+        <COMPID name="Врач" mc="Standard.Actor" uid="5e9e093f-f3f2-4c69-b91b-08934e3713de"/>
+        <COMPID name="Запись оказанных услуг и выписанных рецептов" mc="Standard.UseCase" uid="1c2407ed-4a23-422d-b967-881b79b47d0b"/>
+        <COMPID name="Добавление назначенного приёма в базу" mc="Standard.UseCase" uid="846aa775-11cc-43aa-b1d2-5938b319b033"/>
+        <COMPID name="Архив" mc="Standard.Actor" uid="4e5e4776-ae2f-4f6d-91e8-d6288a739e2a"/>
+        <COMPID name="Запрос отчёта" mc="Standard.UseCase" uid="7d00871b-c7c3-4455-9e1a-46683c5a1806"/>
+        <COMPID name="Работа с архивом" mc="Standard.UseCase" uid="9609f474-e011-4ce4-b9aa-758a298c99ff"/>
+        <COMPID name="Запрос Отчёта Use Case View" mc="Standard.Package" uid="2c51c8a9-884f-468c-a501-64520279b52c"/>
+        <COMPID name="CRUD данных о врачах Use Case View" mc="Standard.Package" uid="3f38c658-e57c-4976-813a-bcd1a44cda46"/>
+        <COMPID name="CRUD данных о пациентах Use Case View" mc="Standard.Package" uid="d0774e6b-ef95-4584-a957-d6d2d6f0d747"/>
+        <COMPID name="База данных" mc="Standard.Actor" uid="21ac64d1-7715-4978-854c-1b25d31336c0"/>
+        <COMPID name="Работа с архивом Use Case View" mc="Standard.Package" uid="7a070d1e-4d39-46b2-a9fc-e107c1f6b187"/>
+        <COMPID name="Пометить услуги как оплаченные" mc="Standard.UseCase" uid="ca9009f7-9130-4676-973d-5dede5ecc0f2"/>
+        <COMPID name="Получить чек для указанного клиента" mc="Standard.UseCase" uid="f77c545c-3137-4161-bdf9-c0a14d499dc1"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Main Use Case" mc="Standard.UseCaseDiagram" uid="2a114d29-ede5-4105-80bc-c453ec3a7188"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

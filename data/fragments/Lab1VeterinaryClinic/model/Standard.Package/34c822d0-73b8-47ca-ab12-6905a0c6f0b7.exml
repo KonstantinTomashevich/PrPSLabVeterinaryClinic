@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Process View" version="4">
+  <OBJECT>
+    <ID name="Process View" mc="Standard.Package" uid="34c822d0-73b8-47ca-ab12-6905a0c6f0b7"/>
+    <PID name="lab1veterinaryclinic" mc="Standard.Package" uid="f7c25c11-9c20-415b-8b42-251bef7e076f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Process View]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Войти в систему Activity Diagram" mc="Standard.Package" uid="36d0d3e0-3f1a-4afc-ad34-7d92b388d4e5"/>
+        <COMPID name="Запись оказанных услуг и выписанных рецептов Activity Diagram" mc="Standard.Package" uid="7bf58aac-d495-4d5d-8447-53438399fea3"/>
+        <COMPID name="Получить чек для указанного клиента Activity Diagram" mc="Standard.Package" uid="24b83834-f08d-48d5-9169-9420b63eb21d"/>
+        <COMPID name="Запись оказанных услуг и выписанных рецептов State Diagram" mc="Standard.Package" uid="d016bc6c-cdcc-4af0-8a76-94e11457706f"/>
+        <COMPID name="Получить чек для указанного клиента State Diagram" mc="Standard.Package" uid="ab22d6c9-d2f2-43c6-8cf0-04fd31a2140a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

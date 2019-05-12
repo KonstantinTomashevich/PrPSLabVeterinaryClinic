@@ -1,0 +1,82 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CRUD данных о врачах Use Case" version="4">
+  <OBJECT>
+    <ID name="CRUD данных о врачах Use Case" mc="Standard.UseCaseDiagram" uid="329343af-82eb-4dda-9546-2a9cdbb6b6c7"/>
+    <PID name="CRUD данных о врачах Use Case View" mc="Standard.Package" uid="3f38c658-e57c-4976-813a-bcd1a44cda46"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">601</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="Name"><![CDATA[CRUD данных о врачах Use Case]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="Сотрудник регистратуры" mc="Standard.Actor" uid="2054f792-2d58-4738-808b-84c2c22eb033"/>
+        <ID name="Создание записи о новом враче в базе данных" mc="Standard.UseCase" uid="672419fc-cc17-4aad-8c75-8f31628d2649"/>
+        <ID name="CRUD данных о врачах Use Case View" mc="Standard.Package" uid="3f38c658-e57c-4976-813a-bcd1a44cda46"/>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="62f5017e-da35-48cb-83b5-0a1a8badc09d"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="8a0e4bf5-6af3-4936-b53e-c4e8156be384"/>
+        </REFOBJ>
+        <ID name="Удаление записи о давно уволившемся враче" mc="Standard.UseCase" uid="0971206a-611c-490f-80c6-fc2f1c4ad72b"/>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="5dfa711d-3be4-4727-80f3-27a0e3a8f2dd"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="20f9a66e-dac1-404b-b977-4e84bf294ddd"/>
+        </REFOBJ>
+        <ID name="Получить всю информацию про врача (ФИО, ДР, стаж, специальности, график работы, телефон, email)" mc="Standard.UseCase" uid="10fb3e06-b3d8-4691-835e-c9400593f9e9"/>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="fb5b175a-2410-4927-b785-495365de85d8"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="1728417c-b3a5-47d9-a113-76731146e947"/>
+        </REFOBJ>
+        <ID name="Обновить информацию про врача (ФИО, стаж, специальности, телефон, email)" mc="Standard.UseCase" uid="3d37f0a1-2387-4bbc-a8f5-59d448d36f2f"/>
+        <ID name="База данных" mc="Standard.Actor" uid="21ac64d1-7715-4978-854c-1b25d31336c0"/>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="7067ff85-4ac9-43fd-bd8e-f7d75c86ff33"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="08ffbee4-1657-4d27-9a1d-d86e5a7186c7"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="23032efd-ead8-40e2-bd4a-5852f5110b6c"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="2830f680-0cfb-400e-a4da-75f9febcdbb4"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="d0357a72-49dd-4afa-8000-97d66ea10cd3"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="36dc4cd4-875e-486b-9596-bda88863a147"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="d906e4b4-92c0-4d75-878a-c0f9d5939356"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.AssociationEnd" uid="26159f20-d5bd-420a-bdb1-e3c077521061"/>
+        </REFOBJ>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="57cc2bc0-67a9-41ff-9207-5d1a4778c253"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

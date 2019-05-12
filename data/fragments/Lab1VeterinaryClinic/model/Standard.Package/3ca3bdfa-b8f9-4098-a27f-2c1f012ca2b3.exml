@@ -1,0 +1,138 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Component View" version="4">
+  <OBJECT>
+    <ID name="Component View" mc="Standard.Package" uid="3ca3bdfa-b8f9-4098-a27f-2c1f012ca2b3"/>
+    <PID name="lab1veterinaryclinic" mc="Standard.Package" uid="f7c25c11-9c20-415b-8b42-251bef7e076f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Component View]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedInformationFlow">
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="3fce5acd-faba-402f-b8cf-2815795ca3d7"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="LoginForm instance" mc="Standard.Package" uid="745dbed9-8f40-4f4d-b126-dc11b195ac3b"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="AuthSystem singleton" mc="Standard.Package" uid="fb952c4f-23d0-4971-9167-ff3d63d5688a"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="b53f088c-585b-4da9-bce8-aed05e174e69"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="AuthSystem singleton" mc="Standard.Package" uid="fb952c4f-23d0-4971-9167-ff3d63d5688a"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="SDK" mc="Standard.Package" uid="0c796c7c-113c-4506-b33a-38916cf6041c"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="5649e799-4387-4612-9fc4-b49b8867e92b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="SDK" mc="Standard.Package" uid="0c796c7c-113c-4506-b33a-38916cf6041c"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="Network connection to DB" mc="Standard.Package" uid="27c1f69a-ad0b-4776-b922-e28bf96c98aa"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="6e81db5b-a39b-4cbe-909c-9dd00bef6d78"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="Network connection to DB" mc="Standard.Package" uid="27c1f69a-ad0b-4776-b922-e28bf96c98aa"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="SDK" mc="Standard.Package" uid="0c796c7c-113c-4506-b33a-38916cf6041c"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="2ac4860b-d74d-4b14-a647-a08f4c29bfc6"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="SDK" mc="Standard.Package" uid="0c796c7c-113c-4506-b33a-38916cf6041c"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="AuthSystem singleton" mc="Standard.Package" uid="fb952c4f-23d0-4971-9167-ff3d63d5688a"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="InformationFlow" mc="Standard.InformationFlow" uid="eca19029-fafb-4f25-bb6e-de291dc129b7"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[InformationFlow]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="InformationSource">
+              <ID name="AuthSystem singleton" mc="Standard.Package" uid="fb952c4f-23d0-4971-9167-ff3d63d5688a"/>
+            </LINK>
+            <LINK relation="InformationTarget">
+              <ID name="LoginForm instance" mc="Standard.Package" uid="745dbed9-8f40-4f4d-b126-dc11b195ac3b"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="MySQL Client-side SDK" mc="Standard.Package" uid="f3015f55-f59e-4e2f-9dc9-c42840e2698d"/>
+        <COMPID name="VetClinic Shared Library" mc="Standard.Package" uid="4dc16d3f-5698-417e-b499-97450a08c638"/>
+        <COMPID name="VetClinic GUI App" mc="Standard.Package" uid="d9d521b9-8e99-4e6b-96bc-0c0b889a675e"/>
+        <COMPID name="Network connection to DB" mc="Standard.Package" uid="27c1f69a-ad0b-4776-b922-e28bf96c98aa"/>
+        <COMPID name="Database Server" mc="Standard.Component" uid="23419a48-2741-4915-90c7-cbe61a68478d"/>
+        <COMPID name="Archive Server" mc="Standard.Component" uid="2750df92-d8af-4f8d-b6b6-3aa82ba3010e"/>
+        <COMPID name="Database driver" mc="Standard.Component" uid="3ed2c3df-885f-4d91-8020-2d2eea664cb6"/>
+        <COMPID name="Login subsystem" mc="Standard.Component" uid="5d1166f0-0604-4186-a918-22529a32dd47"/>
+        <COMPID name="ReportFormer subsystem" mc="Standard.Component" uid="ad12e52e-de12-45e5-bfcf-73431aef9a60"/>
+        <COMPID name="CheckManagment subsystem" mc="Standard.Component" uid="228c5956-42f6-4e1f-a041-377c003f8a07"/>
+        <COMPID name="Doctors CRUD subsystem" mc="Standard.Component" uid="af345cbb-e74a-4565-b87b-8ab6564fc68e"/>
+        <COMPID name="Patient CRUD subsystem" mc="Standard.Component" uid="9b3ec134-9f07-4925-ba45-2aeb7a3bdddc"/>
+        <COMPID name="Appointment Managment subsystem" mc="Standard.Component" uid="facc01b1-0432-4086-9832-815f14edf864"/>
+        <COMPID name="Patient CRUD subsystem UI" mc="Standard.Component" uid="54c6f038-8c2a-4485-a182-606a307db280"/>
+        <COMPID name="Doctors CRUD subsystem UI" mc="Standard.Component" uid="5081c443-14fb-4dee-8d2f-a8c831a75629"/>
+        <COMPID name="Login subsystem UI" mc="Standard.Component" uid="e33a3b67-5a15-4cc9-8ebe-0a9a78bd627d"/>
+        <COMPID name="ReportFormer subsystem UI" mc="Standard.Component" uid="731da1f2-6f2f-4aaf-8c98-3141c71f724b"/>
+        <COMPID name="CheckManagment subsystem UI" mc="Standard.Component" uid="6bf89b06-8a0d-4197-b52a-66fedde4f0d1"/>
+        <COMPID name="Appointment Managment subsystem UI" mc="Standard.Component" uid="d78f4408-5e55-4068-8afd-aff7daeabee3"/>
+        <COMPID name="Activity Selector subsystem" mc="Standard.Component" uid="1acfd99e-35ce-41ba-8638-4bf6721f7a28"/>
+        <COMPID name="Activity Selector subsystem UI" mc="Standard.Component" uid="52de770b-7000-4f8d-b457-c53ae26f7669"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="GlobalPackageDiagram" mc="Standard.ClassDiagram" uid="75b6d823-6365-483b-ad62-9f7ce7b9635d"/>
+        <COMPID name="GlobalComponentDiagram" mc="Standard.ClassDiagram" uid="7726e8de-befb-439f-8b8b-79d48f174b89"/>
+        <COMPID name="UIFormsDiagram" mc="Standard.ClassDiagram" uid="eb9ae1aa-7885-4127-8de6-6027070b1b4e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

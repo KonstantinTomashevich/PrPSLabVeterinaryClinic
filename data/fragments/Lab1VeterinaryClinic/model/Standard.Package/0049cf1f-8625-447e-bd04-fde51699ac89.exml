@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Use Case Model" version="4">
+  <OBJECT>
+    <ID name="Use Case Model" mc="Standard.Package" uid="0049cf1f-8625-447e-bd04-fde51699ac89"/>
+    <PID name="lab1veterinaryclinic" mc="Standard.Package" uid="f7c25c11-9c20-415b-8b42-251bef7e076f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Use Case Model]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Main Use Case View" mc="Standard.Package" uid="67310664-9df8-4ca1-ae57-1547d6f5fb23"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

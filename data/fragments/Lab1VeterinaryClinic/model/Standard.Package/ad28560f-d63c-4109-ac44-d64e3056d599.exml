@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="appointment_registration" version="4">
+  <OBJECT>
+    <ID name="appointment_registration" mc="Standard.Package" uid="ad28560f-d63c-4109-ac44-d64e3056d599"/>
+    <PID name="Class Diagrams" mc="Standard.Package" uid="43d4a8d0-bc58-4be5-a104-ffd7ac0232b6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[appointment_registration]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AppointmentRegistrator" mc="Standard.Class" uid="bc963c1a-6609-45c6-b930-52f898b817e2"/>
+        <OBJECT>
+          <ID name="Day" mc="Standard.Enumeration" uid="d4f3de94-e4ab-42d3-bc5d-440cd8189789"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Day]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="Monday" mc="Standard.EnumerationLiteral" uid="41fcc785-6866-4905-8073-93adf05120c3"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Monday]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Thuesday" mc="Standard.EnumerationLiteral" uid="4fac83b2-cb9a-482b-9486-6e2b45f0add2"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Thuesday]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Wednesday" mc="Standard.EnumerationLiteral" uid="04cf8d6b-315b-47e7-9739-3114f4ec2e61"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Wednesday]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Thursday" mc="Standard.EnumerationLiteral" uid="bff4cfe1-1d66-42a3-8d6e-7ba82e62c107"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Thursday]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Friday" mc="Standard.EnumerationLiteral" uid="6ee37ef2-85c6-4190-86df-afbc97a40192"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Friday]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Saturday" mc="Standard.EnumerationLiteral" uid="2aeb3b37-5fa0-47d6-9448-029f0d27c11d"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Saturday]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Sunday" mc="Standard.EnumerationLiteral" uid="7df7e2d0-1eeb-497f-b4f0-6f6dfba575dc"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Sunday]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="RegistrationForm" mc="Standard.Class" uid="a89c15ae-af29-43f6-b875-7da631750ae6"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

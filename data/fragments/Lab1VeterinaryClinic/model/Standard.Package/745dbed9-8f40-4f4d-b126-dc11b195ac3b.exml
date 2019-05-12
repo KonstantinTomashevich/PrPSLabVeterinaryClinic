@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="LoginForm instance" version="4">
+  <OBJECT>
+    <ID name="LoginForm instance" mc="Standard.Package" uid="745dbed9-8f40-4f4d-b126-dc11b195ac3b"/>
+    <PID name="Login" mc="Standard.Package" uid="d06e5df9-cebc-498a-afbe-aeff2d8b7fa8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[LoginForm instance]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

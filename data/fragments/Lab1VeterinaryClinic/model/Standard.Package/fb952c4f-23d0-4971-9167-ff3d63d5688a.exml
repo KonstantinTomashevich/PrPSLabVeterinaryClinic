@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="AuthSystem singleton" version="4">
+  <OBJECT>
+    <ID name="AuthSystem singleton" mc="Standard.Package" uid="fb952c4f-23d0-4971-9167-ff3d63d5688a"/>
+    <PID name="Login" mc="Standard.Package" uid="d788e2e2-5d15-44f6-a5f6-18382cc3a94b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[AuthSystem singleton]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Archive Server" version="4">
+  <OBJECT>
+    <ID name="Archive Server" mc="Standard.Package" uid="86828fd9-594f-4807-b4fd-338e408482d5"/>
+    <PID name="Deployment View" mc="Standard.Package" uid="1eeb03fa-5281-4daf-92c6-782e29f86534"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Archive Server]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MySQL Server Software" mc="Standard.Node" uid="915651a5-35bc-4e59-9805-cc77e6270680"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

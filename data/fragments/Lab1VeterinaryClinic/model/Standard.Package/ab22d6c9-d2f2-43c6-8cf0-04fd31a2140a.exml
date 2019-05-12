@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Получить чек для указанного клиента State Diagram" version="4">
+  <OBJECT>
+    <ID name="Получить чек для указанного клиента State Diagram" mc="Standard.Package" uid="ab22d6c9-d2f2-43c6-8cf0-04fd31a2140a"/>
+    <PID name="Process View" mc="Standard.Package" uid="34c822d0-73b8-47ca-ab12-6905a0c6f0b7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Получить чек для указанного клиента State Diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="State Machine" mc="Standard.StateMachine" uid="0b566f4a-967c-4cbf-845f-9f7457ebd0e9"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

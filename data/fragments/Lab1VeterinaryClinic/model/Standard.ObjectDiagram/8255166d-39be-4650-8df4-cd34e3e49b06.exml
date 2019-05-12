@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Войти в систему Objects" version="4">
+  <OBJECT>
+    <ID name="Войти в систему Objects" mc="Standard.ObjectDiagram" uid="8255166d-39be-4650-8df4-cd34e3e49b06"/>
+    <PID name="Войти в систему" mc="Standard.Package" uid="e8906589-80c7-41d0-92aa-a1fa2c27cba4"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">339</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="Name"><![CDATA[Войти в систему Objects]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <REFOBJ>
+          <ID name="authSystemInstance" mc="Standard.Instance" uid="8d49921e-a208-4128-90bf-f157b0c3c485"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="AttributeLink" mc="Standard.AttributeLink" uid="c5ed34c1-1c8f-422a-8061-e10783980995"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="correctAuthToken" mc="Standard.Instance" uid="d51d5b1c-dfa4-4301-8e14-733e55344e5d"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="AttributeLink" mc="Standard.AttributeLink" uid="2e974e0b-807c-408a-8507-108a461de61d"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="AttributeLink1" mc="Standard.AttributeLink" uid="b9a8c68c-2dd2-4552-9266-0eab2450c770"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="authToken" mc="Standard.LinkEnd" uid="a871d3cc-7a37-4e85-9c29-38b11a975938"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.LinkEnd" uid="6d6a3d80-23f6-44ff-af12-24654749dd30"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="loginForm" mc="Standard.Instance" uid="6178bc5a-cbae-48d1-9cfa-2dff38d447c7"/>
+        </REFOBJ>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="5e11a5da-6d52-4437-9100-79856d88381f"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

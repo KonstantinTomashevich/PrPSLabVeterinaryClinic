@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CRUD данных о пациентах Use Case View" version="4">
+  <OBJECT>
+    <ID name="CRUD данных о пациентах Use Case View" mc="Standard.Package" uid="d0774e6b-ef95-4584-a957-d6d2d6f0d747"/>
+    <PID name="Main Use Case View" mc="Standard.Package" uid="67310664-9df8-4ca1-ae57-1547d6f5fb23"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CRUD данных о пациентах Use Case View]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Добавить клиента" mc="Standard.UseCase" uid="e0f31712-cbb5-4894-ac84-fe61c2ba92f9"/>
+        <COMPID name="Добавить пациента к указанному клиенту" mc="Standard.UseCase" uid="c569f42f-d42f-4942-89c5-d685856b8445"/>
+        <COMPID name="Обновить данные клиента (фио, адрес, телефон, email, размер персональной скидки)" mc="Standard.UseCase" uid="c91b4f5e-501b-45d0-9e3f-02a4547b01a2"/>
+        <COMPID name="Обновить данные пациента (вид, кличка, пол, год рождения, ветеринарная карта)" mc="Standard.UseCase" uid="2bfd1634-0d09-42d0-a05f-6e122cfa6108"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="CRUD данных о пациентах Use Case" mc="Standard.UseCaseDiagram" uid="c95438a6-5594-4517-ade0-831088c8a1f1"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="VetClinic Shared Library" version="4">
+  <OBJECT>
+    <ID name="VetClinic Shared Library" mc="Standard.Package" uid="4dc16d3f-5698-417e-b499-97450a08c638"/>
+    <PID name="Component View" mc="Standard.Package" uid="3ca3bdfa-b8f9-4098-a27f-2c1f012ca2b3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[VetClinic Shared Library]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Login" mc="Standard.Package" uid="d788e2e2-5d15-44f6-a5f6-18382cc3a94b"/>
+        <COMPID name="ReportFormers" mc="Standard.Package" uid="6d29d201-9193-4d1c-812c-785ff385d058"/>
+        <COMPID name="CheckManagment" mc="Standard.Package" uid="8862168d-d95e-403a-a900-eb3441502a22"/>
+        <COMPID name="DoctorsCRUD" mc="Standard.Package" uid="4c7b551d-f49c-43ca-9409-f4e0ff8592be"/>
+        <COMPID name="PatientsCRUD" mc="Standard.Package" uid="a7dd13d0-1ca9-4d3f-a00f-091a3d8ff6ac"/>
+        <COMPID name="AppointmentManagment" mc="Standard.Package" uid="19a366cd-2c31-4906-8de4-7649923fe902"/>
+      </COMP>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="" mc="Standard.Usage" uid="06c61549-19ea-4368-be39-bb095cdbc50e"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="MySQL Client-side SDK" mc="Standard.Package" uid="f3015f55-f59e-4e2f-9dc9-c42840e2698d"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

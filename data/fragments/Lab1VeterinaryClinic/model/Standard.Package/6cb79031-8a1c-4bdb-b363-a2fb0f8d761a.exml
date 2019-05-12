@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Client PC (any of them)" version="4">
+  <OBJECT>
+    <ID name="Client PC (any of them)" mc="Standard.Package" uid="6cb79031-8a1c-4bdb-b363-a2fb0f8d761a"/>
+    <PID name="Deployment View" mc="Standard.Package" uid="1eeb03fa-5281-4daf-92c6-782e29f86534"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Client PC (any of them)]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MySQLClient.dll" mc="Standard.Node" uid="99d10832-93b6-45bc-8698-eb72d5b03653"/>
+        <COMPID name="VetClinicGUI.exe" mc="Standard.Node" uid="f4c0c5b9-22f4-4dba-912d-2e30ad5d140d"/>
+        <COMPID name="VetClinicLib.dll" mc="Standard.Node" uid="ea8b6c05-1ed9-4b24-a356-f7a0aa4b6da0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

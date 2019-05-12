@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DataBase Server" version="4">
+  <OBJECT>
+    <ID name="DataBase Server" mc="Standard.Package" uid="72e449c1-3571-4fa5-ac1b-aaf0f0d90b78"/>
+    <PID name="Deployment View" mc="Standard.Package" uid="1eeb03fa-5281-4daf-92c6-782e29f86534"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DataBase Server]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="MySQL Server Software" mc="Standard.Node" uid="800f6d3a-8e3e-49ce-8c1c-7775d3f1de50"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

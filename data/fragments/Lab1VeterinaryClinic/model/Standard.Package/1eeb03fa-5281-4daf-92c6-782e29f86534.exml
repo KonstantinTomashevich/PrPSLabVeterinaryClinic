@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Deployment View" version="4">
+  <OBJECT>
+    <ID name="Deployment View" mc="Standard.Package" uid="1eeb03fa-5281-4daf-92c6-782e29f86534"/>
+    <PID name="lab1veterinaryclinic" mc="Standard.Package" uid="f7c25c11-9c20-415b-8b42-251bef7e076f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Deployment View]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Client PC" mc="Standard.Package" uid="6cb79031-8a1c-4bdb-b363-a2fb0f8d761a"/>
+        <COMPID name="DataBase Server" mc="Standard.Package" uid="72e449c1-3571-4fa5-ac1b-aaf0f0d90b78"/>
+        <COMPID name="Archive Server" mc="Standard.Package" uid="86828fd9-594f-4807-b4fd-338e408482d5"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Deployment" mc="Standard.DeploymentDiagram" uid="3ca1158c-e0f9-4306-9286-553f8bcab973"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

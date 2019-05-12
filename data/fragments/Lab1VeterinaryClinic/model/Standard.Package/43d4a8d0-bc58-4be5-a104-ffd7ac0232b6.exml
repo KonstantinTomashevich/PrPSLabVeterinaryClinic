@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Class Diagrams" version="4">
+  <OBJECT>
+    <ID name="Class Diagrams" mc="Standard.Package" uid="43d4a8d0-bc58-4be5-a104-ffd7ac0232b6"/>
+    <PID name="Logical View" mc="Standard.Package" uid="111494bc-60e1-46c4-a0c8-ec12899c21e3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Class Diagrams]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="login" mc="Standard.Package" uid="837db814-0d14-45a8-8563-0644be4cb3a6"/>
+        <COMPID name="appointment_result" mc="Standard.Package" uid="2e377b5d-f21c-48d4-aae5-f7601fb954cd"/>
+        <COMPID name="crud_patient" mc="Standard.Package" uid="a15f72cd-3a78-465b-be9b-9281ddc249ef"/>
+        <COMPID name="appointment_registration" mc="Standard.Package" uid="ad28560f-d63c-4109-ac44-d64e3056d599"/>
+        <COMPID name="check" mc="Standard.Package" uid="a217d0e1-b32e-483d-95d9-a253f7ac8172"/>
+        <COMPID name="reports" mc="Standard.Package" uid="f69f5f97-5b4a-4425-b89c-f18a46f59fed"/>
+        <COMPID name="crud_doctors" mc="Standard.Package" uid="586bbe02-0735-48e9-9b73-0bdc1e0ea407"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Войти в систему Classes" mc="Standard.ClassDiagram" uid="0c46938f-ca5e-42d6-8b1a-99cfbef9ac42"/>
+        <COMPID name="Запись оказанных услуг и выписанных рецептов Classes" mc="Standard.ClassDiagram" uid="5679d4d5-d23e-4d6b-8465-665c9e6fead4"/>
+        <COMPID name="Обзор всех классов" mc="Standard.ClassDiagram" uid="415b2174-a9dd-4239-a8d4-23495f04bd1e"/>
+        <COMPID name="CRUD данных о пациентах Classes" mc="Standard.ClassDiagram" uid="56fcfa64-2cb1-4821-9278-65aa3745eec1"/>
+        <COMPID name="Назначение приёма Classes" mc="Standard.ClassDiagram" uid="46e595f0-f8a2-4674-a690-66650d55ff5f"/>
+        <COMPID name="Работа с чеками Classes" mc="Standard.ClassDiagram" uid="d800f0c4-66bb-4aeb-a3f9-14d6902b59e4"/>
+        <COMPID name="Отчёты Classes" mc="Standard.ClassDiagram" uid="fb2def4a-38f8-4733-8a2a-064b3677c29b"/>
+        <COMPID name="CRUD данных о врачах Classes" mc="Standard.ClassDiagram" uid="76291b62-934b-42c2-83ee-1cfc3f983943"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

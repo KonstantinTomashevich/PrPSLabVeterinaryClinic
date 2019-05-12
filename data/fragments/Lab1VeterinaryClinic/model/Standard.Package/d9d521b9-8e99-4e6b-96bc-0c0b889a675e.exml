@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="VetClinic GUI App" version="4">
+  <OBJECT>
+    <ID name="VetClinic GUI App" mc="Standard.Package" uid="d9d521b9-8e99-4e6b-96bc-0c0b889a675e"/>
+    <PID name="Component View" mc="Standard.Package" uid="3ca3bdfa-b8f9-4098-a27f-2c1f012ca2b3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[VetClinic GUI App]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Login" mc="Standard.Package" uid="d06e5df9-cebc-498a-afbe-aeff2d8b7fa8"/>
+        <COMPID name="ReportFormers" mc="Standard.Package" uid="9463784a-376b-4b01-a1c2-84aeb36d785b"/>
+        <COMPID name="CheckManagment" mc="Standard.Package" uid="fd7d60a6-dad4-478d-9ad5-d68867877d00"/>
+        <COMPID name="DoctorsCRUD" mc="Standard.Package" uid="390ea6d0-891b-4200-a65c-3b2e9e521519"/>
+        <COMPID name="PatientsCRUD" mc="Standard.Package" uid="588f4dbd-6c3a-4c6d-88c6-01756e6ae72b"/>
+        <COMPID name="AppointmentManagment" mc="Standard.Package" uid="ddaf45cf-1585-4742-8108-ecc9310d7295"/>
+      </COMP>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="" mc="Standard.Usage" uid="afec8b5a-0773-434f-ac57-f2c7d7acff32"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="VetClinic Shared Library" mc="Standard.Package" uid="4dc16d3f-5698-417e-b499-97450a08c638"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

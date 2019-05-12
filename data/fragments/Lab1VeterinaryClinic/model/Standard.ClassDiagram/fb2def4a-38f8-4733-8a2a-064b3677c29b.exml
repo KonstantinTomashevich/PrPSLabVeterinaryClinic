@@ -1,0 +1,62 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Отчёты Classes" version="4">
+  <OBJECT>
+    <ID name="Отчёты Classes" mc="Standard.ClassDiagram" uid="fb2def4a-38f8-4733-8a2a-064b3677c29b"/>
+    <PID name="Class Diagrams" mc="Standard.Package" uid="43d4a8d0-bc58-4be5-a104-ffd7ac0232b6"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">99</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="Name"><![CDATA[Отчёты Classes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="reports" mc="Standard.Package" uid="f69f5f97-5b4a-4425-b89c-f18a46f59fed"/>
+        <ID name="ReportMaker" mc="Standard.Class" uid="0feafbcf-29d2-4f54-ba6a-64d58d87fb3e"/>
+        <REFOBJ>
+          <ID name="MakeAllDoctorsAppointmentsReport" mc="Standard.Operation" uid="27ac7924-4e74-4e32-bd5c-6b6a83fdfd75"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="GetPeriodServicesReportForPatient" mc="Standard.Operation" uid="659a905a-2fb8-49d9-84f4-c8e361f5b3cc"/>
+        </REFOBJ>
+        <ID name="RequestReportForm" mc="Standard.Class" uid="2a388e16-a8de-429b-ba91-ea5acf7c7921"/>
+        <REFOBJ>
+          <ID name="Show" mc="Standard.Operation" uid="7686d9bb-d9d0-48ae-ab92-e4e3492cdbf0"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Hide" mc="Standard.Operation" uid="d6f05b1d-10d0-48ec-9c87-18093e57bd25"/>
+        </REFOBJ>
+        <ID name="ShowReportForm" mc="Standard.Class" uid="15f1a238-40dc-4064-b8a8-7b4ed7ce0301"/>
+        <REFOBJ>
+          <ID name="Show" mc="Standard.Operation" uid="125fcbc1-9ace-4fb8-957d-1dfdd03e7cca"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Hide" mc="Standard.Operation" uid="ac5880e9-0673-4478-897c-4cbd5a545769"/>
+        </REFOBJ>
+        <ID name="DatePeriodSelectorForm" mc="Standard.Class" uid="392acd43-6331-4405-ae82-97ea4b8a3eb0"/>
+        <REFOBJ>
+          <ID name="Show" mc="Standard.Operation" uid="f861f7cd-b3b1-477e-8c57-0f6914c36c49"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Hide" mc="Standard.Operation" uid="0cbfd093-9989-4031-b83a-085d90c1a958"/>
+        </REFOBJ>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="fafc323f-30cf-41fa-8ff1-2c7db8dde985"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

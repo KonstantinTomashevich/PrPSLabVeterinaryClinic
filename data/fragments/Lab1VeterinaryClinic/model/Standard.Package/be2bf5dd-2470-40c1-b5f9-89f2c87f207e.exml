@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Sequence Diagrams" version="4">
+  <OBJECT>
+    <ID name="Sequence Diagrams" mc="Standard.Package" uid="be2bf5dd-2470-40c1-b5f9-89f2c87f207e"/>
+    <PID name="Logical View" mc="Standard.Package" uid="111494bc-60e1-46c4-a0c8-ec12899c21e3"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Sequence Diagrams]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Войти в систему Interaction" mc="Standard.Interaction" uid="30e37438-5d98-4c66-8ffc-74a3157b08f5"/>
+        <COMPID name="Добавить клиента Interaction" mc="Standard.Interaction" uid="73c3f450-d662-43ad-ae3a-f7287e0e18a5"/>
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="5c31ba8d-391d-42fc-b0b5-2feb9332ca4f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

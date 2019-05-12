@@ -1,0 +1,95 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="crud_doctors" version="4">
+  <OBJECT>
+    <ID name="crud_doctors" mc="Standard.Package" uid="586bbe02-0735-48e9-9b73-0bdc1e0ea407"/>
+    <PID name="Class Diagrams" mc="Standard.Package" uid="43d4a8d0-bc58-4be5-a104-ffd7ac0232b6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[crud_doctors]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DoctorsDatabaseAccessor" mc="Standard.Class" uid="95057fa3-8033-448c-a60b-35e231c0f859"/>
+        <COMPID name="DoctorData" mc="Standard.Class" uid="0f166214-ff7f-42d2-8c64-7078699ff55a"/>
+        <OBJECT>
+          <ID name="DoctorEditableField" mc="Standard.Enumeration" uid="afedc748-4a29-40df-a619-1ed15a39c89c"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[DoctorEditableField]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="Name" mc="Standard.EnumerationLiteral" uid="56cac746-2622-45c6-9b69-3a809249b9bf"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Name]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Birthday" mc="Standard.EnumerationLiteral" uid="720edee7-9ce9-4832-8fd4-3cdafae0d60d"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Birthday]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="WorkYears" mc="Standard.EnumerationLiteral" uid="c28a282e-cdc9-480a-ad91-5977a3005644"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[WorkYears]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="WorkingHoursInfo" mc="Standard.EnumerationLiteral" uid="ad20ed61-a530-4ad6-8e67-418b2db0c1e7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[WorkingHoursInfo]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="PhoneNumber" mc="Standard.EnumerationLiteral" uid="c3ebe769-d1dd-4229-91f8-f6a1a511b6b6"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[PhoneNumber]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Email" mc="Standard.EnumerationLiteral" uid="29024d38-e919-448e-91ab-edd9b388477f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Email]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="DoctorListViewForm" mc="Standard.Class" uid="42ac6194-9199-4748-b7ad-6a0a4f5b02ec"/>
+        <COMPID name="DoctorRecordViewForm" mc="Standard.Class" uid="0c8c74ee-1c4d-4441-9f28-e8d806aa3967"/>
+        <COMPID name="AddDoctorRecordForm" mc="Standard.Class" uid="f8bc5b9f-35cc-4655-afa0-d95156614372"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

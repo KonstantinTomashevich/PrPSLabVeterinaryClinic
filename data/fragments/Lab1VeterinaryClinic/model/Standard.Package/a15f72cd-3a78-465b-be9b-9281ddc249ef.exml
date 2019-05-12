@@ -1,0 +1,211 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="crud_patient" version="4">
+  <OBJECT>
+    <ID name="crud_patient" mc="Standard.Package" uid="a15f72cd-3a78-465b-be9b-9281ddc249ef"/>
+    <PID name="Class Diagrams" mc="Standard.Package" uid="43d4a8d0-bc58-4be5-a104-ffd7ac0232b6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[crud_patient]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="PatientDatabaseAcessor" mc="Standard.Class" uid="db5aff97-1d97-486e-b721-63f892a996de"/>
+        <COMPID name="PatientData" mc="Standard.DataType" uid="e339f771-a813-46f9-9f62-733ac97192d5"/>
+        <COMPID name="ClientData" mc="Standard.DataType" uid="9fafcd21-2188-4b85-a01d-ed68b878b3a6"/>
+        <COMPID name="VeterinaryCard" mc="Standard.DataType" uid="97e9407c-ba40-46a6-b418-943949a41ef2"/>
+        <COMPID name="Appointment" mc="Standard.Class" uid="78622440-5ac8-4403-8b0c-146e4efb4586"/>
+        <OBJECT>
+          <ID name="Sex" mc="Standard.Enumeration" uid="c9bb903f-87ec-4de5-8065-52c81a7562d1"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[Sex]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="Male" mc="Standard.EnumerationLiteral" uid="a8bb7cb3-c7c4-4bb0-9516-7080b781fcd2"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Male]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Female" mc="Standard.EnumerationLiteral" uid="d69eefb7-6ae5-4d23-90bf-244b0e866250"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Female]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="IDNotFoundException" mc="Standard.Class" uid="9807ef93-5f44-44df-ac2e-a5b29c907fdf"/>
+        <COMPID name="IDConflictException" mc="Standard.Class" uid="e2125836-ce6f-4bbe-8a34-f619fd3ea2dc"/>
+        <COMPID name="IncorrectDataExcaption" mc="Standard.Class" uid="cff8bfe1-d84f-44db-91f0-db12f9c73193"/>
+        <OBJECT>
+          <ID name="EditablePatientFields" mc="Standard.Enumeration" uid="9e3a8103-32a9-47dc-8af6-2ab17601b8a1"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[EditablePatientFields]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Value">
+              <OBJECT>
+                <ID name="SpeciesID" mc="Standard.EnumerationLiteral" uid="652729a7-ff88-42d6-9287-8637bb1e3725"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[SpeciesID]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Name" mc="Standard.EnumerationLiteral" uid="e8d0d361-be50-4b98-b665-9be79e3b9a2b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Name]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Sex" mc="Standard.EnumerationLiteral" uid="fe6bcd41-65cf-4611-ba27-37c4d7a973d5"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Sex]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="BirthDate" mc="Standard.EnumerationLiteral" uid="b79715a9-59e9-485d-9156-d94f9ee74d7f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[BirthDate]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="EditableClientFields" mc="Standard.Enumeration" uid="662f11fd-4ec0-4a67-9408-05cc6eeb134f"/>
+          <ATTRIBUTES>
+            <ATT name="IsElementary">true</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[EditableClientFields]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="OwnedElement">
+              <OBJECT>
+                <ID name="OfficialName" mc="Standard.Enumeration" uid="e7d2bfa5-635c-4c4d-94e1-42247ff0b867"/>
+                <ATTRIBUTES>
+                  <ATT name="IsElementary">true</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="IsLeaf">false</ATT>
+                  <ATT name="IsRoot">false</ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="Name"><![CDATA[OfficialName]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Address" mc="Standard.Enumeration" uid="030ff6db-bf2c-4941-8af9-29142973ca78"/>
+                <ATTRIBUTES>
+                  <ATT name="IsElementary">true</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="IsLeaf">false</ATT>
+                  <ATT name="IsRoot">false</ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="Name"><![CDATA[Address]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="PhoneNumber" mc="Standard.Enumeration" uid="0f29cf76-12d0-4fa5-a0b7-c282a0a13824"/>
+                <ATTRIBUTES>
+                  <ATT name="IsElementary">true</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="IsLeaf">false</ATT>
+                  <ATT name="IsRoot">false</ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="Name"><![CDATA[PhoneNumber]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Email" mc="Standard.Enumeration" uid="e6d7d456-7286-41af-88e4-57256e2808aa"/>
+                <ATTRIBUTES>
+                  <ATT name="IsElementary">true</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="IsLeaf">false</ATT>
+                  <ATT name="IsRoot">false</ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="Name"><![CDATA[Email]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="PersonalDiscount" mc="Standard.Enumeration" uid="56d2bb11-f621-431a-b8b6-4f9bb33e8e9c"/>
+                <ATTRIBUTES>
+                  <ATT name="IsElementary">true</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="IsLeaf">false</ATT>
+                  <ATT name="IsRoot">false</ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="Name"><![CDATA[PersonalDiscount]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="JavaEnumeration" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0262-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <COMPID name="PatientDatabaseAcessorMainForm" mc="Standard.Class" uid="c6967ef1-ab00-4bb5-9464-a3d514460349"/>
+        <COMPID name="RecordListViewForm" mc="Standard.Interface" uid="3ee19d79-f7e2-43d4-bcf5-c49d512ec03e"/>
+        <COMPID name="ClientListViewForm" mc="Standard.Class" uid="dcaaf93e-293a-4f76-a66f-276c4e477c97"/>
+        <COMPID name="PatientListViewForm" mc="Standard.Class" uid="f29d7042-afc2-42e3-9f13-5d956e4cdd1a"/>
+        <COMPID name="ClientRecordViewForm" mc="Standard.Class" uid="6c93c900-ce85-4aa3-b5bd-276e3a4ad978"/>
+        <COMPID name="RecordViewForm" mc="Standard.Interface" uid="eb01b10e-3959-4ece-86c7-4d8bd13ead47"/>
+        <COMPID name="PatientRecordViewForm" mc="Standard.Class" uid="8c68b29e-e693-4146-8a64-d45abc80f425"/>
+        <COMPID name="AddRecordForm" mc="Standard.Interface" uid="619c3211-1c40-4914-a08d-d742c5b593c5"/>
+        <COMPID name="AddClientRecordForm" mc="Standard.Class" uid="8edba20c-0bef-4da8-9c58-2a61acf77e30"/>
+        <COMPID name="AddPatientRecordForm" mc="Standard.Class" uid="e28f086b-8945-47e4-98ed-334e45b4168e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

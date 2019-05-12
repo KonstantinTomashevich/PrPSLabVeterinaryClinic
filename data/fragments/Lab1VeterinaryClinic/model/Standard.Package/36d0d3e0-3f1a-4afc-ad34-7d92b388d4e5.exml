@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Войти в систему Activity Diagram" version="4">
+  <OBJECT>
+    <ID name="Войти в систему Activity Diagram" mc="Standard.Package" uid="36d0d3e0-3f1a-4afc-ad34-7d92b388d4e5"/>
+    <PID name="Process View" mc="Standard.Package" uid="34c822d0-73b8-47ca-ab12-6905a0c6f0b7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Войти в систему Activity Diagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity" mc="Standard.Activity" uid="9fbe449a-d784-4053-8257-95bb960068af"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

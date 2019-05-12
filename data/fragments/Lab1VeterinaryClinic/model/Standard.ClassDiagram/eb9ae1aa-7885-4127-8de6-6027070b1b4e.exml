@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UIFormsDiagram" version="4">
+  <OBJECT>
+    <ID name="UIFormsDiagram" mc="Standard.ClassDiagram" uid="eb9ae1aa-7885-4127-8de6-6027070b1b4e"/>
+    <PID name="Component View" mc="Standard.Package" uid="3ca3bdfa-b8f9-4098-a27f-2c1f012ca2b3"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">249</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="Name"><![CDATA[UIFormsDiagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="5f5e3a9d-a577-4113-b668-df15b347b07f"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

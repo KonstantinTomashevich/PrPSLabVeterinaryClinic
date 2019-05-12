@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="appointment_result" version="4">
+  <OBJECT>
+    <ID name="appointment_result" mc="Standard.Package" uid="2e377b5d-f21c-48d4-aae5-f7601fb954cd"/>
+    <PID name="Class Diagrams" mc="Standard.Package" uid="43d4a8d0-bc58-4be5-a104-ffd7ac0232b6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[appointment_result]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AppointmentResultRegistrator" mc="Standard.Class" uid="d14d44d6-4656-4763-a74b-7c272cdc0960"/>
+        <COMPID name="AppointmentRegistrationSession" mc="Standard.DataType" uid="37581764-af19-42df-963a-1e26f354eb6e"/>
+        <COMPID name="PatientNotOwnerBySelectedClientException" mc="Standard.Class" uid="3f512d9c-541b-4bbb-bad0-d8f1abbb860c"/>
+        <COMPID name="ServiceNotAvailableException" mc="Standard.Class" uid="d338d3ef-eae6-4e19-9732-da3aa7bb7c7f"/>
+        <COMPID name="AvailableServicesNotLoadedException" mc="Standard.Class" uid="c70d6d63-d751-4f5f-9d6e-20e3f4751c31"/>
+        <COMPID name="AvailableRecipesNotLoadedException" mc="Standard.Class" uid="8688cfdb-f9cf-44fa-9bab-590882a8ad69"/>
+        <COMPID name="RecipeNotAvailableException" mc="Standard.Class" uid="180a7bc5-5f0b-4c29-8b3d-1135d14c3411"/>
+        <COMPID name="ErrorsInSessionDataException" mc="Standard.Class" uid="df6d9cc0-a989-4740-be12-e604f3df2bde"/>
+        <COMPID name="SessionNotFoundException" mc="Standard.Class" uid="0a245d5c-0db5-4ef9-a7c7-63ee27a307e4"/>
+        <COMPID name="SelectionForm" mc="Standard.Interface" uid="08226eeb-3a70-40c5-b427-495e1916a3a5"/>
+        <COMPID name="ClientSelectionForm" mc="Standard.Class" uid="db075325-93cd-4ede-8234-ad180249d503"/>
+        <COMPID name="PatientSelectionForm" mc="Standard.Class" uid="4450e12f-b814-4366-9306-2b1faf17cc2a"/>
+        <COMPID name="AdditionForm" mc="Standard.Interface" uid="67a5dbda-95be-4e78-a5bf-d5bffcbd4577"/>
+        <COMPID name="ServicesAdditionForm" mc="Standard.Class" uid="4f5db3a5-ad28-479f-b428-72ba4957017d"/>
+        <COMPID name="RecipesAdditionForm" mc="Standard.Class" uid="e51b5bc3-7204-4123-9ad1-17e8bb784166"/>
+        <COMPID name="SendForm" mc="Standard.Class" uid="703df987-f971-4a79-9afa-0a99b4ec479d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

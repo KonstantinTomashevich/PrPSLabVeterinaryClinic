@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="MySQLClient.dll" version="4">
+  <OBJECT>
+    <ID name="MySQLClient.dll" mc="Standard.Node" uid="99d10832-93b6-45bc-8698-eb72d5b03653"/>
+    <PID name="Client PC" mc="Standard.Package" uid="6cb79031-8a1c-4bdb-b363-a2fb0f8d761a"/>
+    <ATTRIBUTES>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[MySQLClient.dll]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="InternalStructure">
+        <OBJECT>
+          <ID name="Port" mc="Standard.Port" uid="5fc4c61e-f84b-4dc9-b332-5bcd2b62a718"/>
+          <ATTRIBUTES>
+            <ATT name="IsBehavior">false</ATT>
+            <ATT name="IsService">true</ATT>
+            <ATT name="IsConjugated">false</ATT>
+            <ATT name="Direction">None</ATT>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[Port]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="OwnedEnd">
+              <REFOBJ>
+                <ID name="port" mc="Standard.ConnectorEnd" uid="bdf94a29-ba4f-4239-aa94-519c5d096a48"/>
+              </REFOBJ>
+              <REFOBJ>
+                <ID name="port" mc="Standard.ConnectorEnd" uid="af42cb74-7068-44d6-845a-393892ef9c9b"/>
+              </REFOBJ>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

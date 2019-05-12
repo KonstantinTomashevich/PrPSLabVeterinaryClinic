@@ -1,0 +1,275 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GlobalComponentDiagram" version="4">
+  <OBJECT>
+    <ID name="GlobalComponentDiagram" mc="Standard.ClassDiagram" uid="7726e8de-befb-439f-8b8b-79d48f174b89"/>
+    <PID name="Component View" mc="Standard.Package" uid="3ca3bdfa-b8f9-4098-a27f-2c1f012ca2b3"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">549</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="Name"><![CDATA[GlobalComponentDiagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="Database Server" mc="Standard.Component" uid="23419a48-2741-4915-90c7-cbe61a68478d"/>
+        <ID name="Archive Server" mc="Standard.Component" uid="2750df92-d8af-4f8d-b6b6-3aa82ba3010e"/>
+        <ID name="Database driver" mc="Standard.Component" uid="3ed2c3df-885f-4d91-8020-2d2eea664cb6"/>
+        <REFOBJ>
+          <ID name="Port" mc="Standard.Port" uid="8dbe2873-8b2c-4a2d-9772-611a8fd28ce5"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port2" mc="Standard.Port" uid="e3f9407d-d022-476f-8c10-93f32e612717"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port" mc="Standard.Port" uid="f9c23691-15a2-4de3-921e-105c268f0d35"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port" mc="Standard.Port" uid="21d9cf2e-804a-4b5b-96c8-3bd686893cb0"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="a7550223-ef5b-4681-a34a-ab2a61f30afc"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.NaryConnector" uid="89aeaff6-f325-4e00-9845-357eb55eefa8"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="fe1a7dd0-30a6-4d3c-91b9-7e6f73db0563"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="1b75ee9d-f75c-4043-8f5c-887fdda48c49"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="392079a7-044b-4fdf-b300-56aeca7d114a"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.NaryConnector" uid="ce1ea4c2-b486-4b03-806b-1359fa45835b"/>
+        </REFOBJ>
+        <ID name="Login subsystem" mc="Standard.Component" uid="5d1166f0-0604-4186-a918-22529a32dd47"/>
+        <ID name="ReportFormer subsystem" mc="Standard.Component" uid="ad12e52e-de12-45e5-bfcf-73431aef9a60"/>
+        <REFOBJ>
+          <ID name="Port" mc="Standard.Port" uid="b6e38f23-dd31-4013-97c3-958fa8492a89"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port" mc="Standard.Port" uid="745112c9-7964-4b50-8c01-2d093a4777a9"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port1" mc="Standard.Port" uid="85ca04ce-0d0c-4d15-becd-480d60786bbe"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="73da88a7-518c-4338-a27d-5fb0c0cb3cf4"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.NaryConnector" uid="6d758265-a3af-4290-b7d8-8d14fbdcde0b"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="eaf97531-85ae-44a0-a072-94cd2ce849d2"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="b7c14eaf-244d-454f-9cca-6eca71c4a316"/>
+        </REFOBJ>
+        <ID name="CheckManagment subsystem" mc="Standard.Component" uid="228c5956-42f6-4e1f-a041-377c003f8a07"/>
+        <ID name="Doctors CRUD subsystem" mc="Standard.Component" uid="af345cbb-e74a-4565-b87b-8ab6564fc68e"/>
+        <ID name="Patient CRUD subsystem" mc="Standard.Component" uid="9b3ec134-9f07-4925-ba45-2aeb7a3bdddc"/>
+        <ID name="Appointment Managment subsystem" mc="Standard.Component" uid="facc01b1-0432-4086-9832-815f14edf864"/>
+        <REFOBJ>
+          <ID name="Port" mc="Standard.Port" uid="53d5d234-a981-46fc-aa7e-deca5502151d"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port" mc="Standard.Port" uid="f570ac80-dcfb-4474-8d8e-cd0fa30d68b7"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port" mc="Standard.Port" uid="371f7f50-4eab-481e-8573-fbd1c4faafa9"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port" mc="Standard.Port" uid="168c9444-a459-4562-aa01-f0d93dc647bb"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="d9bcc821-879c-48fb-bd2f-81105e13979b"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="2c4d4a73-9ed7-40d9-9b7b-9c0a2d7f1c67"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="406ce270-15a1-4c53-837f-4a9933dfd5bb"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="19489a89-193e-4dee-b7ce-6ba032f65502"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port1" mc="Standard.Port" uid="67f34d72-71c7-41cb-89fa-62d034db1615"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port1" mc="Standard.Port" uid="e960838a-ece4-43f6-8dd9-a194eadcf716"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port1" mc="Standard.Port" uid="117ef81f-8578-4879-9136-51e526e7972d"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port1" mc="Standard.Port" uid="313dec2b-8d45-4073-abb5-0e3c957cf7a8"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port1" mc="Standard.Port" uid="068b35a5-a1b2-4bbd-a5ac-1111ff6810bd"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port1" mc="Standard.Port" uid="afa7e154-2231-4eab-be1a-c117bde4c92e"/>
+        </REFOBJ>
+        <ID name="Patient CRUD subsystem UI" mc="Standard.Component" uid="54c6f038-8c2a-4485-a182-606a307db280"/>
+        <ID name="Doctors CRUD subsystem UI" mc="Standard.Component" uid="5081c443-14fb-4dee-8d2f-a8c831a75629"/>
+        <ID name="Login subsystem UI" mc="Standard.Component" uid="e33a3b67-5a15-4cc9-8ebe-0a9a78bd627d"/>
+        <ID name="ReportFormer subsystem UI" mc="Standard.Component" uid="731da1f2-6f2f-4aaf-8c98-3141c71f724b"/>
+        <ID name="CheckManagment subsystem UI" mc="Standard.Component" uid="6bf89b06-8a0d-4197-b52a-66fedde4f0d1"/>
+        <ID name="Appointment Managment subsystem UI" mc="Standard.Component" uid="d78f4408-5e55-4068-8afd-aff7daeabee3"/>
+        <REFOBJ>
+          <ID name="Port" mc="Standard.Port" uid="619110f8-afa6-47ad-931a-0364e103cee6"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port" mc="Standard.Port" uid="03ad4b70-c64e-4fc3-a636-ff8743f340de"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port" mc="Standard.Port" uid="47041a0c-d8ac-4e5c-9b6f-a598a14a61e9"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port" mc="Standard.Port" uid="f022cce6-bf59-412a-99ec-97a44d870376"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port" mc="Standard.Port" uid="4a99afa3-6c3d-4189-9dcb-0ee478092f1f"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port" mc="Standard.Port" uid="1001829a-ef85-4ccb-80e8-e9ee2f1c4241"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="6f977855-25bc-4e51-9936-332a02312b3a"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="884c84fa-1781-4dc7-abfe-e921548e014a"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.NaryConnector" uid="45aaba14-9fa9-469b-925e-ce496ad3c7b9"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="39e5e3eb-8ad1-4c2f-b284-e4f71a5486cd"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.NaryConnector" uid="7bb00f3d-2bc5-45fd-8f9f-db1d37c9a43a"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="41d3d6f7-184c-4b0e-93e9-52c0c1018d9e"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="c90d3369-a913-45a4-8bb4-fb64a6dbfbd9"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="1a25f23e-e778-4062-999c-7ec8e8518376"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.NaryConnector" uid="5ef13d86-68ff-42f7-a022-cff68beaa5e4"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="f703a2bd-353e-4be1-96bd-119710b17667"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.NaryConnector" uid="1957f96e-a2ab-4deb-86bd-51d6cc755b3f"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="63425082-e835-4152-bec2-3eda8e577843"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="c01ac317-e8e7-46e6-9575-30cc90a1ba85"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="4796ea95-7ac9-4617-94f7-1a95d8af4b2f"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.NaryConnector" uid="fe3f28a8-3c55-4de9-8853-09bf3718348f"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="99dd942f-aeea-45f2-957d-159183f3234d"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.NaryConnector" uid="9a58340d-52a5-42d6-85c2-65ce256e7509"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="7804a214-3015-44db-a7d8-124d1838c1ce"/>
+        </REFOBJ>
+        <ID name="Activity Selector subsystem" mc="Standard.Component" uid="1acfd99e-35ce-41ba-8638-4bf6721f7a28"/>
+        <ID name="Activity Selector subsystem UI" mc="Standard.Component" uid="52de770b-7000-4f8d-b457-c53ae26f7669"/>
+        <REFOBJ>
+          <ID name="Port1" mc="Standard.Port" uid="ffa10577-7a64-452c-8d0b-5601d17b0196"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port1" mc="Standard.Port" uid="bdb4506a-65bf-46ef-a19c-dad7c31d91f1"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port1" mc="Standard.Port" uid="79c93015-7f7d-45fb-bed1-65006d682318"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port1" mc="Standard.Port" uid="6f2fe4ba-ba89-4818-adc9-ded6ebd2ae9f"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port1" mc="Standard.Port" uid="59bd5948-08da-4c0b-9913-ab2c2944a79e"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port1" mc="Standard.Port" uid="d6b4f0cb-60bc-4b98-aecd-af1112ee4163"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port" mc="Standard.Port" uid="590dce77-0f07-470b-9597-7550c52d4839"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port1" mc="Standard.Port" uid="51b7870c-4109-4916-954d-38db8bafed55"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Port" mc="Standard.Port" uid="f47297ab-5af4-4135-b405-eb3bbeff7baa"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="c32c2c83-ced5-4b4b-90ff-2806604764f8"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="RequiredInterface" mc="Standard.RequiredInterface" uid="9ebb3ac3-8071-4ba0-b3f7-83810cdc99eb"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.NaryConnector" uid="e24dece5-45e7-4f29-8360-152d8c73995c"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="132d609b-a393-46c7-a033-b57c831e86bf"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="" mc="Standard.NaryConnector" uid="b150c210-53a1-4a88-81ad-6e3289228d03"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="208aa526-dbf7-4683-b0f1-c39a87b330e9"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="6bd691eb-d8bc-4d29-8067-fe2669db3707"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="987af6cb-0ac3-4cba-a474-da868475fc96"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="bfa64d6a-d281-45ef-9a73-f84745a2788c"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="28fceeb0-e868-484e-93c2-fc826950ecb8"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="ProvidedInterface" mc="Standard.ProvidedInterface" uid="478d605c-1390-40f6-9657-c5552d84aef6"/>
+        </REFOBJ>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="4ba1ead4-bb8d-4594-aaaf-dac970e77819"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="PatientsCRUD" version="4">
+  <OBJECT>
+    <ID name="PatientsCRUD" mc="Standard.Package" uid="588f4dbd-6c3a-4c6d-88c6-01756e6ae72b"/>
+    <PID name="VetClinic GUI App" mc="Standard.Package" uid="d9d521b9-8e99-4e6b-96bc-0c0b889a675e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[PatientsCRUD]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

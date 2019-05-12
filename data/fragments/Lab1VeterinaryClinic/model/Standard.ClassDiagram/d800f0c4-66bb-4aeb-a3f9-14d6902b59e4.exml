@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Работа с чеками Classes" version="4">
+  <OBJECT>
+    <ID name="Работа с чеками Classes" mc="Standard.ClassDiagram" uid="d800f0c4-66bb-4aeb-a3f9-14d6902b59e4"/>
+    <PID name="Class Diagrams" mc="Standard.Package" uid="43d4a8d0-bc58-4be5-a104-ffd7ac0232b6"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">94</ATT>
+      <ATT name="UiData"><![CDATA[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]]></ATT>
+      <ATT name="Name"><![CDATA[Работа с чеками Classes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Represented">
+        <ID name="check" mc="Standard.Package" uid="a217d0e1-b32e-483d-95d9-a253f7ac8172"/>
+        <ID name="CheckService" mc="Standard.Class" uid="85e5ecef-4c7e-433d-b188-ae9419be61ed"/>
+        <REFOBJ>
+          <ID name="GetAllClientChecks" mc="Standard.Operation" uid="e2cf1b20-8e85-4359-a136-1b4946677f7c"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="MarkCheckPaid" mc="Standard.Operation" uid="267ffdcd-f448-42c1-ba66-b58d084d9f67"/>
+        </REFOBJ>
+        <ID name="MarkCheckPaidForm" mc="Standard.Class" uid="73d27be1-79b0-470a-8243-35754d18c313"/>
+        <REFOBJ>
+          <ID name="Show" mc="Standard.Operation" uid="4c72324f-bce6-4695-92c2-ebaf0157a713"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Hide" mc="Standard.Operation" uid="3dac2933-51ce-4c98-83d7-2bd97da62265"/>
+        </REFOBJ>
+        <ID name="ViewClientChecksForm" mc="Standard.Class" uid="8ea834e3-25f5-4426-a90b-02cee9aeb3c0"/>
+        <REFOBJ>
+          <ID name="Show" mc="Standard.Operation" uid="d62841fe-ae10-4acf-8d8c-142e2ee1fd7a"/>
+        </REFOBJ>
+        <REFOBJ>
+          <ID name="Hide" mc="Standard.Operation" uid="a78a3510-22d3-439d-9b36-8559b8201dd4"/>
+        </REFOBJ>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="b3b6fd32-8de8-4815-81f0-5c1eae8886db"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

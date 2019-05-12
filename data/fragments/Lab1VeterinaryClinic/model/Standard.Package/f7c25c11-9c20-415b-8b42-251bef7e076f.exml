@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="lab1veterinaryclinic" version="4">
+  <OBJECT>
+    <ID name="lab1veterinaryclinic" mc="Standard.Package" uid="f7c25c11-9c20-415b-8b42-251bef7e076f"/>
+    <PID name="Lab1VeterinaryClinic" mc="Standard.Project" uid="a3459604-2e0d-469c-b3c9-fa140fc72149"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[lab1veterinaryclinic]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Use Case Model" mc="Standard.Package" uid="0049cf1f-8625-447e-bd04-fde51699ac89"/>
+        <COMPID name="Business Model" mc="Standard.Package" uid="35d4e611-3a5a-46eb-9d66-b7843c884b85"/>
+        <COMPID name="Logical View" mc="Standard.Package" uid="111494bc-60e1-46c4-a0c8-ec12899c21e3"/>
+        <COMPID name="Deployment View" mc="Standard.Package" uid="1eeb03fa-5281-4daf-92c6-782e29f86534"/>
+        <COMPID name="Component View" mc="Standard.Package" uid="3ca3bdfa-b8f9-4098-a27f-2c1f012ca2b3"/>
+        <COMPID name="Process View" mc="Standard.Package" uid="34c822d0-73b8-47ca-ab12-6905a0c6f0b7"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

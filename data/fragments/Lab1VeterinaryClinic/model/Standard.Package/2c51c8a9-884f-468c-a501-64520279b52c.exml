@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Запрос Отчёта Use Case View" version="4">
+  <OBJECT>
+    <ID name="Запрос Отчёта Use Case View" mc="Standard.Package" uid="2c51c8a9-884f-468c-a501-64520279b52c"/>
+    <PID name="Main Use Case View" mc="Standard.Package" uid="67310664-9df8-4ca1-ae57-1547d6f5fb23"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Запрос Отчёта Use Case View]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Запрос недельного графика работы врачей" mc="Standard.UseCase" uid="a3508f59-e606-4835-81f8-a00f69657021"/>
+        <COMPID name="Запрос перечня услуг и рецептов, относящихся к отдельному пациенту,
+оказанных/выписанных в заданный период времени" mc="Standard.UseCase" uid="6e729747-9b00-4df2-94df-78c64d8fecaa"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Запрос Отчёта Use Case" mc="Standard.UseCaseDiagram" uid="a0f1fcd4-0182-4fcd-966c-fab92ab52abb"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

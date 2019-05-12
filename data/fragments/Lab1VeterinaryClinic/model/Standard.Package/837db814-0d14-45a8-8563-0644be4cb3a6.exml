@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="login" version="4">
+  <OBJECT>
+    <ID name="login" mc="Standard.Package" uid="837db814-0d14-45a8-8563-0644be4cb3a6"/>
+    <PID name="Class Diagrams" mc="Standard.Package" uid="43d4a8d0-bc58-4be5-a104-ffd7ac0232b6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[login]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="AuthSystem" mc="Standard.Class" uid="b412d867-094f-4f8e-8fd6-e0f53e7db49b"/>
+        <COMPID name="AuthAttemptData" mc="Standard.DataType" uid="ff5a70d0-f325-41dd-9a5e-b772b116fe1e"/>
+        <COMPID name="AuthToken" mc="Standard.DataType" uid="e05228ec-e2b7-4aae-9792-b154a23bc116"/>
+        <COMPID name="LoginForm" mc="Standard.Class" uid="a7dacc21-4a1a-4b40-b034-0fa21a39f56d"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaPackage" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0126-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

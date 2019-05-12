@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="VetClinicGUI.exe" version="4">
+  <OBJECT>
+    <ID name="VetClinicGUI.exe" mc="Standard.Node" uid="f4c0c5b9-22f4-4dba-912d-2e30ad5d140d"/>
+    <PID name="Client PC" mc="Standard.Package" uid="6cb79031-8a1c-4bdb-b363-a2fb0f8d761a"/>
+    <ATTRIBUTES>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[VetClinicGUI.exe]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="" mc="Standard.Usage" uid="44396ed9-cee1-484c-b500-2e4c4cad3740"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="VetClinicLib.dll" mc="Standard.Node" uid="ea8b6c05-1ed9-4b24-a356-f7a0aa4b6da0"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

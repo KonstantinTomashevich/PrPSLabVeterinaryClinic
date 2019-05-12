@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Logical View" version="4">
+  <OBJECT>
+    <ID name="Logical View" mc="Standard.Package" uid="111494bc-60e1-46c4-a0c8-ec12899c21e3"/>
+    <PID name="lab1veterinaryclinic" mc="Standard.Package" uid="f7c25c11-9c20-415b-8b42-251bef7e076f"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Logical View]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Class Diagrams" mc="Standard.Package" uid="43d4a8d0-bc58-4be5-a104-ffd7ac0232b6"/>
+        <COMPID name="Object Diagrams" mc="Standard.Package" uid="b10309d8-5733-4680-815e-511db9853d07"/>
+        <COMPID name="Sequence Diagrams" mc="Standard.Package" uid="be2bf5dd-2470-40c1-b5f9-89f2c87f207e"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

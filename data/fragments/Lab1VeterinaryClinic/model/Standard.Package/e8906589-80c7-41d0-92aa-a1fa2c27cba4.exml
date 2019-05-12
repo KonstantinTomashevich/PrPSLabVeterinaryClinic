@@ -1,0 +1,171 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Войти в систему" version="4">
+  <OBJECT>
+    <ID name="Войти в систему" mc="Standard.Package" uid="e8906589-80c7-41d0-92aa-a1fa2c27cba4"/>
+    <PID name="Object Diagrams" mc="Standard.Package" uid="b10309d8-5733-4680-815e-511db9853d07"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Войти в систему]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Declared">
+        <OBJECT>
+          <ID name="authSystemInstance" mc="Standard.Instance" uid="8d49921e-a208-4128-90bf-f157b0c3c485"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">true</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[authSystemInstance]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="OwnedEnd">
+              <OBJECT>
+                <ID name="authToken" mc="Standard.LinkEnd" uid="a871d3cc-7a37-4e85-9c29-38b11a975938"/>
+                <ATTRIBUTES>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="Name"><![CDATA[authToken]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Link">
+                    <OBJECT>
+                      <ID name="" mc="Standard.Link" uid="56ae4386-cfc0-49f3-b1b4-497753685b8f"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="Target">
+                    <REFOBJ>
+                      <ID name="correctAuthToken" mc="Standard.Instance" uid="d51d5b1c-dfa4-4301-8e14-733e55344e5d"/>
+                    </REFOBJ>
+                  </LINK>
+                  <COMP relation="Opposite">
+                    <OBJECT>
+                      <ID name="" mc="Standard.LinkEnd" uid="6d6a3d80-23f6-44ff-af12-24654749dd30"/>
+                      <ATTRIBUTES>
+                        <ATT name="IsOrdered">false</ATT>
+                        <ATT name="IsUnique">false</ATT>
+                        <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                        <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <COMP relation="Link">
+                          <COMPID name="" mc="Standard.Link" uid="56ae4386-cfc0-49f3-b1b4-497753685b8f"/>
+                        </COMP>
+                        <COMP relation="Opposite">
+                          <COMPID name="authToken" mc="Standard.LinkEnd" uid="a871d3cc-7a37-4e85-9c29-38b11a975938"/>
+                        </COMP>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <LINK relation="Base">
+              <ID name="AuthSystem" mc="Standard.Class" uid="b412d867-094f-4f8e-8fd6-e0f53e7db49b"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="AttributeLink" mc="Standard.AttributeLink" uid="c5ed34c1-1c8f-422a-8061-e10783980995"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[2]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="attemptsLeft" mc="Standard.Attribute" uid="a1f24c5b-f8d1-429d-9d8d-cb1c3f6cd59d"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="correctAuthToken" mc="Standard.Instance" uid="d51d5b1c-dfa4-4301-8e14-733e55344e5d"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[correctAuthToken]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="AuthToken" mc="Standard.DataType" uid="e05228ec-e2b7-4aae-9792-b154a23bc116"/>
+            </LINK>
+            <COMP relation="Slot">
+              <OBJECT>
+                <ID name="AttributeLink" mc="Standard.AttributeLink" uid="2e974e0b-807c-408a-8507-108a461de61d"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[ex21372a9856m43pl329e]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="token" mc="Standard.Attribute" uid="fc37e367-9747-450c-87bc-1c782e2b6929"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="AttributeLink1" mc="Standard.AttributeLink" uid="b9a8c68c-2dd2-4552-9266-0eab2450c770"/>
+                <ATTRIBUTES>
+                  <ATT name="Value"><![CDATA[14:30 12.12.2012]]></ATT>
+                  <ATT name="Name"><![CDATA[AttributeLink1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <REFOBJ>
+                      <ID name="expireDate" mc="Standard.Attribute" uid="1d9d6893-e8b9-4767-b0a2-6f618c3ac1f6"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="loginForm" mc="Standard.Instance" uid="6178bc5a-cbae-48d1-9cfa-2dff38d447c7"/>
+          <ATTRIBUTES>
+            <ATT name="IsConstant">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="Name"><![CDATA[loginForm]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Base">
+              <ID name="LoginForm" mc="Standard.Class" uid="a7dacc21-4a1a-4b40-b034-0fa21a39f56d"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Войти в систему Objects" mc="Standard.ObjectDiagram" uid="8255166d-39be-4650-8df4-cd34e3e49b06"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
