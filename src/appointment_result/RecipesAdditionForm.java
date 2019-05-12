@@ -3,7 +3,7 @@ package appointment_result;
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
 
 @objid ("e51b5bc3-7204-4123-9ad1-17e8bb784166")
-public class RecipesAdditionForm implements AdditionForm, AdditionForm {
+public class RecipesAdditionForm implements AdditionForm {
     @objid ("79d3ca45-9de7-4168-89aa-314b1de12040")
     public void Show() {
     }

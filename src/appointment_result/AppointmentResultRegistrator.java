@@ -8,9 +8,6 @@ public class AppointmentResultRegistrator {
     @objid ("1e76dfa2-4715-41b0-b280-664ab8b79d30")
     public AppointmentRegistrationSession activeSession;
 
-    @objid ("27636acf-8e22-4911-aaf4-b8b9fc7d274d")
-    public AppointmentRegistrationSession ;
-
     @objid ("ff2ca26d-2bff-414d-ae7d-c96f81346b53")
     public void SelectClient(final int clientId) throws SessionNotFoundException {
     }
@@ -22,7 +19,7 @@ public class AppointmentResultRegistrator {
     @objid ("bc045214-131c-4d5c-a359-0d0c40dc4b3c")
     public List<Integer> LoadAvailableServicesList() throws SessionNotFoundException {
         // TODO Auto-generated return
-        return 0;
+        return null;
     }
 
     @objid ("fc1004ff-06c6-429c-9b99-7e9b05011d42")
@@ -38,13 +35,13 @@ public class AppointmentResultRegistrator {
     @objid ("8249f314-9017-46f8-88aa-053e268eaace")
     public List<Integer> LoadAvailableRecipesList() throws SessionNotFoundException {
         // TODO Auto-generated return
-        return 0;
+        return null;
     }
 
     @objid ("6a25206b-5815-4df3-9e3f-732145cc36c8")
     public List<Integer> GetAvailableRecipesList() throws AvailableRecipesNotLoadedException, SessionNotFoundException {
         // TODO Auto-generated return
-        return 0;
+        return null;
     }
 
     @objid ("ef0a2021-e5b4-4c84-ac59-c6077375e4b2")

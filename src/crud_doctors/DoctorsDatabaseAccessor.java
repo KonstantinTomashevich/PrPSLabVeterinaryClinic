@@ -20,7 +20,7 @@ public class DoctorsDatabaseAccessor {
     @objid ("2121ffdc-29bf-48b9-9840-49a781b6ae78")
     public List<Integer> GetDoctorsList() {
         // TODO Auto-generated return
-        return 0;
+        return null;
     }
 
     @objid ("b7f854d7-d05d-43bd-83c7-dbf80440dd36")

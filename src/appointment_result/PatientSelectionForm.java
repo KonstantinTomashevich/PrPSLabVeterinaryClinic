@@ -3,7 +3,7 @@ package appointment_result;
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
 
 @objid ("4450e12f-b814-4366-9306-2b1faf17cc2a")
-public class PatientSelectionForm implements SelectionForm, SelectionForm {
+public class PatientSelectionForm implements SelectionForm {
     @objid ("10a89bfa-90ae-4908-b06b-897990c68d1f")
     public void Show() {
     }

@@ -3,7 +3,7 @@ package crud_patient;
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
 
 @objid ("8edba20c-0bef-4da8-9c58-2a61acf77e30")
-public class AddClientRecordForm implements AddRecordForm, AddRecordForm {
+public class AddClientRecordForm implements AddRecordForm {
     @objid ("cf0055a5-b66d-42c7-9d53-f11f7ccbb35c")
     public void Show() {
     }
