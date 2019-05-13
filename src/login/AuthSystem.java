@@ -1,6 +1,12 @@
 package login;
 
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
+import core.Core;
+
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 @objid("b412d867-094f-4f8e-8fd6-e0f53e7db49b")
 public class AuthSystem {
@@ -17,8 +23,36 @@ public class AuthSystem {
     private AuthToken correctAuthToken;
 
     @objid("9ee82f44-8acf-4341-933e-44ec601b0799")
-    public AuthToken Login(final String address, final AuthAttemptData authAttemptData) {
-        // TODO Auto-generated return
+    public AuthToken Login(final AuthAttemptData authAttemptData) {
+        if (attemptsLeft == 0) {
+            return null;
+        }
+
+        try {
+            Statement statement = Core.GetConnection().createStatement();
+
+            String sql = ("SELECT token, additionalData, isDoctor" +
+                    " FROM login WHERE login.login=\"") +
+                    authAttemptData.Login +
+                    "\" AND login.password=\"" + authAttemptData.Password + "\";";
+            ResultSet resultSet = statement.executeQuery(sql);
+
+            if (resultSet.next()) {
+                correctAuthToken = new AuthToken();
+                correctAuthToken.token = resultSet.getString("token");
+                correctAuthToken.additionalData = resultSet.getInt("additionalData");
+                correctAuthToken.isDoctor = resultSet.getBoolean("isDoctor");
+                return correctAuthToken;
+            } else {
+                attemptsLeft--;
+                return null;
+            }
+
+        } catch (Throwable throwable) {
+            Logger lgr = Logger.getLogger(AuthSystem.class.getName());
+            lgr.log(Level.SEVERE, throwable.getClass().getName() + ": " + throwable.getMessage(), throwable);
+        }
+
         return null;
     }
 
