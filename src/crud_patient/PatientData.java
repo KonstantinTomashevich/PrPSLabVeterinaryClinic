@@ -8,7 +8,7 @@ import com.modeliosoft.modelio.javadesigner.annotations.objid;
 @objid ("e339f771-a813-46f9-9f62-733ac97192d5")
 public class PatientData {
     @objid ("94e30d82-4771-49e4-90fe-b8cea3a714de")
-    public PatientData speciesID;
+    public Integer speciesID;
 
     @objid ("e7181786-fa4b-48a3-9f0a-8b1f7bfc829f")
     public String name;
@@ -17,7 +17,7 @@ public class PatientData {
     public Sex sex;
 
     @objid ("9fe6712a-b0b8-49fd-8981-a0012fc33601")
-    public Date birthDate;
+    public int birthYear;
 
     @objid ("dd5330e7-edc3-422a-8895-68b497489928")
     public int ownerId;

@@ -1,6 +1,9 @@
 package crud_patient;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
+
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
 
 @objid ("78622440-5ac8-4403-8b0c-146e4efb4586")
@@ -9,10 +12,10 @@ public class Appointment {
     public boolean paid;
 
     @objid ("0ae8cefe-10f8-4864-bc51-7437d7f8f357")
-    public int[] services;
+    public List<Integer> services = new ArrayList<>();
 
     @objid ("c168d706-31f1-49a1-b31f-2b811f8202d2")
-    public int[] recipes;
+    public List<Integer> recipes = new ArrayList<>();
 
     @objid ("03ec3c0f-405e-4436-962f-e73bfa4a4a36")
     public int id;

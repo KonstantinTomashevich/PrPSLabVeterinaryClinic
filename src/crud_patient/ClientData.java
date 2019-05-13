@@ -19,15 +19,9 @@ public class ClientData {
     public String email;
 
     @objid("1fb4019c-142d-4836-9990-638394fcf106")
-    public float personalDiscount;
-
-    @objid("3b062f80-9927-46ff-8b8b-c0a7bac66405")
-    public int[] patientIds;
+    public double personalDiscount;
 
     @objid("fad80e0f-cd0b-4a23-bde4-60276813ca60")
     public int id;
-
-    @objid("df4a50eb-11c1-4441-9fec-b08acc994ff6")
-    public VeterinaryCard card;
 
 }

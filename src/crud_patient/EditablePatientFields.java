@@ -7,5 +7,5 @@ public enum EditablePatientFields {
     SpeciesID,
     Name,
     Sex,
-    BirthDate;
+    BirthYear;
 }
