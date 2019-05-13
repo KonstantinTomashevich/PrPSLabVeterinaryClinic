@@ -142,7 +142,8 @@ public class DoctorsDatabaseAccessor {
 
             Statement statement = Core.GetConnection().createStatement();
             String sql = ("UPDATE doctors SET " + columnName + "=\"" + value + "\" WHERE doctor_id=" + id + ";");
-            return statement.execute(sql);
+            statement.execute(sql);
+            return true;
 
         } catch (Throwable throwable) {
             Logger lgr = Logger.getLogger(AuthSystem.class.getName());
