@@ -1,6 +1,8 @@
 package login;
 
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
+import core.DoctorForm;
+import core.RegistrationForm;
 
 import javax.swing.*;
 import java.time.Clock;
@@ -71,7 +73,12 @@ public class LoginForm {
                         " " + inputLoginTextField.getText() + "."), "Login successful!",
                 JOptionPane.INFORMATION_MESSAGE);
         Dispose();
-        // TODO: Go to main window.
+
+        if (AuthSystem.instance.GetActiveAccessToken().isDoctor) {
+            new DoctorForm();
+        } else {
+            new RegistrationForm();
+        }
     }
 
     @objid("63a4c90e-7d27-4a4a-a239-7d1dadbc2e19")
