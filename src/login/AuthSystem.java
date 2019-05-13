@@ -40,6 +40,7 @@ public class AuthSystem {
             if (resultSet.next()) {
                 correctAuthToken = new AuthToken();
                 correctAuthToken.token = resultSet.getString("token");
+                correctAuthToken.name = authAttemptData.Login;
                 correctAuthToken.additionalData = resultSet.getInt("additionalData");
                 correctAuthToken.isDoctor = resultSet.getBoolean("isDoctor");
                 return correctAuthToken;

@@ -14,6 +14,7 @@ public class AuthToken {
     @objid("1d9d6893-e8b9-4767-b0a2-6f618c3ac1f6")
     public Date expireDate;
 
+    public String name;
     public boolean isDoctor;
     public int additionalData;
 }
