@@ -2,6 +2,7 @@ package crud_doctors;
 
 import java.sql.ResultSet;
 import java.sql.Statement;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
@@ -14,6 +15,13 @@ import login.AuthSystem;
 
 @objid("95057fa3-8033-448c-a60b-35e231c0f859")
 public class DoctorsDatabaseAccessor {
+    public final static SimpleDateFormat dataFormat = new SimpleDateFormat("yyyy-MM-dd");
+    public final static DoctorsDatabaseAccessor instance = new DoctorsDatabaseAccessor();
+
+    private DoctorsDatabaseAccessor() {
+
+    }
+
     @objid("289c471f-4625-4ddd-b29f-1c49a8cd888b")
     public boolean RegisterNewDoctor(final DoctorData data) {
         try {
@@ -22,13 +30,14 @@ public class DoctorsDatabaseAccessor {
             String sql = (
                     "INSERT INTO doctors (doctor_id, name, birthDate, experience, phoneNumber, email, workingHoursInfo)" +
                             " VALUES(" + data.id + ", \"" + data.name + "\", \"" +
-                            data.birthday.toString() + "\", " +
+                            dataFormat.format(data.birthday) + "\", " +
                             data.workYears + ", \"" +
                             data.phoneNumber + "\", \"" +
                             data.email + "\", \"" +
                             data.workingHoursInfo + "\");");
 
-            return statement.execute(sql);
+            statement.execute(sql);
+            return true;
 
         } catch (Throwable throwable) {
             Logger lgr = Logger.getLogger(AuthSystem.class.getName());
