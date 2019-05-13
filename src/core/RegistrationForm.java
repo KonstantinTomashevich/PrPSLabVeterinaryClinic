@@ -27,7 +27,7 @@ public class RegistrationForm {
         frame_.setVisible(true);
 
         requestReportButton.addActionListener(e -> {
-            // TODO: Implement. 
+            // TODO: Implement.
         });
 
         registerNewAppointmentButton.addActionListener(e -> {

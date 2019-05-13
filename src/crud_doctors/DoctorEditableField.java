@@ -9,5 +9,5 @@ public enum DoctorEditableField {
     WorkYears,
     WorkingHoursInfo,
     PhoneNumber,
-    Email;
+    Email
 }

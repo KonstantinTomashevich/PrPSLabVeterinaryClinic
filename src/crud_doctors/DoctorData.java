@@ -6,13 +6,13 @@ import com.modeliosoft.modelio.javadesigner.annotations.objid;
 @objid ("0f166214-ff7f-42d2-8c64-7078699ff55a")
 public class DoctorData {
     @objid ("245de9b0-8eda-49c1-afd5-09f88368f7ff")
-    public String Name;
+    public String name;
 
     @objid ("7e2533b2-fbeb-472c-be5e-8207ca8b67be")
-    public Date Birthday;
+    public Date birthday;
 
     @objid ("011d78c1-538d-42c6-8615-2a3daf50a038")
-    public int WorkYears;
+    public int workYears;
 
     @objid ("fb0440df-b6a8-4dcc-965e-5414180101fc")
     public String workingHoursInfo;
