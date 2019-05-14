@@ -388,7 +388,7 @@ public class PatientDatabaseAcessor {
             }
 
             Statement statement = Core.GetConnection().createStatement();
-            String sql = ("UPDATE doctors SET " + columnName + "=\"" + newValue +
+            String sql = ("UPDATE patients SET " + columnName + "=\"" + newValue +
                     "\" WHERE patient_id=" + patientId + ";");
             statement.execute(sql);
             return true;
@@ -424,8 +424,8 @@ public class PatientDatabaseAcessor {
             }
 
             Statement statement = Core.GetConnection().createStatement();
-            String sql = ("UPDATE doctors SET " + columnName + "=\"" + newValue +
-                    "\" WHERE patient_id=" + clientId + ";");
+            String sql = ("UPDATE clients SET " + columnName + "=\"" + newValue +
+                    "\" WHERE client_id=" + clientId + ";");
             statement.execute(sql);
             return true;
 
