@@ -4,7 +4,9 @@ import com.modeliosoft.modelio.javadesigner.annotations.objid;
 import javafx.util.Pair;
 
 import javax.swing.*;
+import java.awt.event.ActionListener;
 import java.util.List;
+import java.util.function.Consumer;
 
 @objid("f29d7042-afc2-42e3-9f13-5d956e4cdd1a")
 public class PatientListViewForm implements RecordListViewForm {
@@ -18,6 +20,25 @@ public class PatientListViewForm implements RecordListViewForm {
     public PatientListViewForm() {
         super();
         viewSelectedPatientButton.addActionListener(e -> ViewSelectedRecord());
+    }
+
+    public void ShowForSelection(final int clientId, Consumer<Pair<Integer, String>> callback) {
+        for (ActionListener al : viewSelectedPatientButton.getActionListeners()) {
+            viewSelectedPatientButton.removeActionListener(al);
+        }
+
+        viewSelectedPatientButton.setText("Select");
+        viewSelectedPatientButton.addActionListener(e -> AcceptSelection(callback));
+        ShowOnlyClientPatients(clientId);
+    }
+
+    public void AcceptSelection(Consumer<Pair<Integer, String>> callback) {
+        int index = patientsList_.getSelectedIndex();
+        if (index >= 0 && index < currentPatientsList_.size()) {
+            callback.accept(currentPatientsList_.get(index));
+        }
+
+        Dispose();
     }
 
     @objid("535c5382-f8af-415f-8a75-a70b6e581c95")
