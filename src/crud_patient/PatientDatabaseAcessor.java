@@ -130,14 +130,14 @@ public class PatientDatabaseAcessor {
             PatientData data = new PatientData();
             Statement statement = Core.GetConnection().createStatement();
 
-            String sql = "SELECT * FROM patient WHERE patient_id=" + patientId + ";";
+            String sql = "SELECT * FROM patients WHERE patient_id=" + patientId + ";";
             ResultSet resultSet = statement.executeQuery(sql);
 
             if (resultSet.next()) {
                 data.id = resultSet.getInt("client_id");
                 data.name = resultSet.getString("name");
-                data.speciesID = resultSet.getInt("speciesId");
-                data.sex = resultSet.getInt("sex") == 0 ? Sex.Male : Sex.Female;
+                data.speciesID = resultSet.getInt("species_id");
+                data.sex = resultSet.getInt("gender_id") == 0 ? Sex.Male : Sex.Female;
                 data.birthYear = resultSet.getInt("birthYear");
                 data.ownerId = resultSet.getInt("client_id");
                 data.veterinaryCard = ReceiveVeterinaryCard(resultSet.getInt("card_id"));
