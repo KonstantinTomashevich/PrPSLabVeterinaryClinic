@@ -346,14 +346,16 @@ public class PatientDatabaseAcessor {
             Statement statement = Core.GetConnection().createStatement();
             int freeCardId = GetFreeID("veterinary_cards", "card_id");
 
-            String sql = "BEGIN TRANSACTION; INSERT INTO veterinary_cards (card_id) VALUES (" + freeCardId + ");" +
-                    "INSERT INTO patients (patient_id, species_id, name, gender_id, birthYear, client_id, card_id)" +
-                            " VALUES(" + data.id + ", " + data.speciesID + ", \"" +
-                            data.name + "\", " +
-                            (data.sex == Sex.Male ? 0 : 1)  + ", " +
-                            data.birthYear + ", " +
-                            data.ownerId + ", " +
-                            freeCardId + "); COMMIT;";
+            String sql = "INSERT INTO veterinary_cards (card_id) VALUES (" + freeCardId + ");";
+            statement.execute(sql);
+
+            sql = "INSERT INTO patients (patient_id, species_id, name, gender_id, birthYear, client_id, card_id)" +
+                    " VALUES(" + data.id + ", " + data.speciesID + ", \"" +
+                    data.name + "\", " +
+                    (data.sex == Sex.Male ? 0 : 1) + ", " +
+                    data.birthYear + ", " +
+                    data.ownerId + ", " +
+                    freeCardId + ");";
 
             statement.execute(sql);
             return true;
