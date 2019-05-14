@@ -33,7 +33,7 @@ public class RegistrationForm {
         });
 
         registerNewAppointmentButton.addActionListener(e -> {
-            // TODO: Implement.
+            new appointment_registration.RegistrationForm().Show();
         });
 
         manageChecksButton.addActionListener(e -> {
