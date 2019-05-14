@@ -1,6 +1,7 @@
 package core;
 
 import crud_doctors.DoctorListViewForm;
+import crud_patient.PatientDatabaseAcessorMainForm;
 import login.AuthSystem;
 
 import javax.swing.*;
@@ -44,7 +45,7 @@ public class RegistrationForm {
         });
 
         managePatientsAndClientsButton.addActionListener(e -> {
-            // TODO: Implement.
+            new PatientDatabaseAcessorMainForm().Show();
         });
     }
 }
