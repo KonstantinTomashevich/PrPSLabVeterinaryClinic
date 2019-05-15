@@ -156,6 +156,7 @@ public class PatientDatabaseAcessor {
     public VeterinaryCard ReceiveVeterinaryCard(final int id) {
         try {
             VeterinaryCard card = new VeterinaryCard();
+            card.id = id;
             Statement statement = Core.GetConnection().createStatement();
 
             String sql = "SELECT * FROM checks WHERE card_id=" + id + ";";
@@ -236,29 +237,6 @@ public class PatientDatabaseAcessor {
             while (resultSet.next()) {
                 result.put(resultSet.getInt("service_type_id"), new Pair<>(
                         resultSet.getString("description"), resultSet.getDouble("cost")));
-            }
-
-            return result;
-
-        } catch (Throwable throwable) {
-            Logger lgr = Logger.getLogger(AuthSystem.class.getName());
-            lgr.log(Level.SEVERE, throwable.getClass().getName() + ": " + throwable.getMessage(), throwable);
-        }
-
-        return null;
-    }
-
-    public Map<Integer, String> GetRecipeTypes() {
-        try {
-            HashMap<Integer, String> result = new HashMap<>();
-            Statement statement = Core.GetConnection().createStatement();
-
-            String sql = "SELECT * FROM medicine_types";
-            ResultSet resultSet = statement.executeQuery(sql);
-
-            while (resultSet.next()) {
-                result.put(resultSet.getInt("medicine_type_id"),
-                        resultSet.getString("description"));
             }
 
             return result;
