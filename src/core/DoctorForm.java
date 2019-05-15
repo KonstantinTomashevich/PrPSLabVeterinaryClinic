@@ -1,5 +1,6 @@
 package core;
 
+import appointment_result.ClientSelectionForm;
 import login.AuthSystem;
 
 import javax.swing.*;
@@ -28,7 +29,7 @@ public class DoctorForm {
         });
 
         registerAppointmentResultsButton.addActionListener(e -> {
-            // TODO: Implement.
+            new ClientSelectionForm().Show();
         });
     }
 }
