@@ -24,7 +24,7 @@ public class AppointmentResultRegistrator {
     private static Map<Integer, String> recipesList = null;
 
     @objid("1e76dfa2-4715-41b0-b280-664ab8b79d30")
-    public AppointmentRegistrationSession activeSession = new AppointmentRegistrationSession();
+    private AppointmentRegistrationSession activeSession = new AppointmentRegistrationSession();
 
     @objid("ff2ca26d-2bff-414d-ae7d-c96f81346b53")
     public void SelectClient(final int clientId) {
@@ -34,6 +34,22 @@ public class AppointmentResultRegistrator {
     @objid("d59c64b3-df61-49d2-8e7e-51b3130acb37")
     public void SelectPatient(final int patientId) {
         activeSession.patientID = patientId;
+    }
+
+    public int GetClient () {
+        return activeSession.clientID;
+    }
+
+    public int GetPatient () {
+        return activeSession.patientID;
+    }
+
+    public final List<Integer> GetSelectedServices () {
+        return activeSession.selectedServicesList;
+    }
+
+    public final List<Integer> GetSelectedRecipes () {
+        return activeSession.selectedRecipesList;
     }
 
     @objid("bc045214-131c-4d5c-a359-0d0c40dc4b3c")
@@ -108,6 +124,7 @@ public class AppointmentResultRegistrator {
     @objid("a8b08358-d7fc-409d-ac0f-432ebff79dfa")
     public boolean SendAndCloseSession() {
         try {
+            // TODO: Remove from registered appointments?
             Statement statement = Core.GetConnection().createStatement();
             PatientData patient = PatientDatabaseAcessor.instance.ReceivePatientData(activeSession.patientID);
 
@@ -125,7 +142,7 @@ public class AppointmentResultRegistrator {
             }
 
             for (int medicine : activeSession.selectedRecipesList) {
-                int id = PatientDatabaseAcessor.instance.GetFreeID("medicine", "medicine_id");
+                int id = PatientDatabaseAcessor.instance.GetFreeID("medicines", "medicine_id");
                 sql = "INSERT INTO medicines (medicine_id, medicine_type_id, check_id) VALUES(" +
                         id + ", " + medicine + ", " + checkId + ");";
                 statement.execute(sql);
