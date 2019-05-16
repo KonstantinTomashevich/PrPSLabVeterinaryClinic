@@ -1,5 +1,6 @@
 package core;
 
+import check.ViewClientChecksForm;
 import crud_doctors.DoctorListViewForm;
 import crud_patient.PatientDatabaseAcessorMainForm;
 import login.AuthSystem;
@@ -37,7 +38,7 @@ public class RegistrationForm {
         });
 
         manageChecksButton.addActionListener(e -> {
-            // TODO: Implement.
+            new ViewClientChecksForm().Show();
         });
 
         manageDoctorsButton.addActionListener(e -> {
