@@ -42,7 +42,9 @@ public class ViewClientChecksForm {
     }
 
     private void ViewSelectedCheck(int index) {
-        new ViewCheckForm(appointments_.get(index)).Show();
+        if (index != -1) {
+            new ViewCheckForm(appointments_.get(index)).Show();
+        }
     }
 
     public void FetchData(int clientId) {
