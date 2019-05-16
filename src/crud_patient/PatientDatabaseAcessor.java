@@ -143,6 +143,11 @@ public class PatientDatabaseAcessor {
                 data.veterinaryCard = ReceiveVeterinaryCard(resultSet.getInt("card_id"));
             }
 
+            for (Appointment appointment : data.veterinaryCard.appointments) {
+                appointment.patientId = patientId;
+                appointment.patientName = data.name;
+            }
+
             return data;
 
         } catch (Throwable throwable) {

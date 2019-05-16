@@ -23,4 +23,6 @@ public class Appointment {
     @objid ("2306acee-b46b-4a19-9225-543be76349ad")
     public Date date;
 
+    public int patientId;
+    public String patientName;
 }
