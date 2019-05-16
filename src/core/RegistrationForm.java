@@ -4,6 +4,7 @@ import check.ViewClientChecksForm;
 import crud_doctors.DoctorListViewForm;
 import crud_patient.PatientDatabaseAcessorMainForm;
 import login.AuthSystem;
+import reports.RequestReportForm;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -29,24 +30,10 @@ public class RegistrationForm {
         frame_.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame_.setVisible(true);
 
-        requestReportButton.addActionListener(e -> {
-            // TODO: Implement.
-        });
-
-        registerNewAppointmentButton.addActionListener(e -> {
-            new appointment_registration.RegistrationForm().Show();
-        });
-
-        manageChecksButton.addActionListener(e -> {
-            new ViewClientChecksForm().Show();
-        });
-
-        manageDoctorsButton.addActionListener(e -> {
-            new DoctorListViewForm().Show();
-        });
-
-        managePatientsAndClientsButton.addActionListener(e -> {
-            new PatientDatabaseAcessorMainForm().Show();
-        });
+        requestReportButton.addActionListener(e -> new RequestReportForm().Show());
+        registerNewAppointmentButton.addActionListener(e -> new appointment_registration.RegistrationForm().Show());
+        manageChecksButton.addActionListener(e -> new ViewClientChecksForm().Show());
+        manageDoctorsButton.addActionListener(e -> new DoctorListViewForm().Show());
+        managePatientsAndClientsButton.addActionListener(e -> new PatientDatabaseAcessorMainForm().Show());
     }
 }

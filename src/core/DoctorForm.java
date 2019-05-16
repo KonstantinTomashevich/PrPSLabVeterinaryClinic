@@ -2,6 +2,7 @@ package core;
 
 import appointment_result.ClientSelectionForm;
 import login.AuthSystem;
+import reports.RequestReportForm;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -24,12 +25,7 @@ public class DoctorForm {
         frame_.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame_.setVisible(true);
 
-        requestReportButton.addActionListener(e -> {
-            // TODO: Implement.
-        });
-
-        registerAppointmentResultsButton.addActionListener(e -> {
-            new ClientSelectionForm().Show();
-        });
+        requestReportButton.addActionListener(e -> new RequestReportForm().Show());
+        registerAppointmentResultsButton.addActionListener(e -> new ClientSelectionForm().Show());
     }
 }
